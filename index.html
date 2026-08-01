@@ -295,6 +295,7 @@ function tryUnlock(){
   if (gateInput.value === SITE_PASSWORD){
     document.body.classList.remove('locked');
     document.getElementById('gate').remove();
+    setTimeout(() => map.invalidateSize(), 100);
   } else {
     gateError.textContent = "Incorrect password — try again.";
     gateInput.value = '';
