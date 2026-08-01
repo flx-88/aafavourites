@@ -438,17 +438,23 @@ function init(){
   renderList();
 }
 
-function renderList(){
-  const query = searchEl.value.trim().toLowerCase();
+const query = searchEl.value.trim().toLowerCase();
   listEl.innerHTML = '';
   let shown = 0;
-
+ 
   PLACES.forEach((p, i) => {
-    if (!activeCats.has(p.category)) return;
+    const matchesCat = activeCats.has(p.category);
     const haystack = (p.name + ' ' + p.address).toLowerCase();
-    if (query && !haystack.includes(query)) return;
+    const matchesQuery = !query || haystack.includes(query);
+    const visible = matchesCat && matchesQuery;
+ 
+    /* keep the map pins in sync with the list filters */
+    if (visible && !map.hasLayer(markers[i])) markers[i].addTo(map);
+    if (!visible && map.hasLayer(markers[i])) map.removeLayer(markers[i]);
+ 
+    if (!visible) return;
     shown++;
-
+ 
     const card = document.createElement('div');
     card.className = 'place-card' + (i === selectedIndex ? ' selected' : '');
     card.innerHTML = `
@@ -460,7 +466,7 @@ function renderList(){
     card.onclick = () => selectPlace(i, true);
     listEl.appendChild(card);
   });
-
+ 
   if (shown === 0){
     listEl.innerHTML = `<div class="empty-msg">No places match. Try clearing the search or turning a category back on.</div>`;
   }
