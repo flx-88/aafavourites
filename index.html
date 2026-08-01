@@ -69,6 +69,8 @@
     display:flex;
     flex-direction:column;
     min-height:0;
+    position:relative;
+    z-index:20;
   }
 
   #search{
@@ -155,7 +157,7 @@
   .empty-msg, .status-msg{padding:30px 20px; text-align:center; opacity:0.6; font-size:12.5px; line-height:1.6;}
   .status-msg.error{color:#E1633D; opacity:0.9;}
 
-  #map{flex:1; background:#0d161f;}
+  #map{flex:1; background:#0d161f; position:relative; z-index:1; overflow:hidden;}
 
   .leaflet-popup-content-wrapper{
     background: var(--ink-panel);
