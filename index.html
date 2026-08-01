@@ -21,7 +21,7 @@
   }
 
   *{box-sizing:border-box;}
-   html,body{margin:0;height:100%;height:100dvh;}
+  html,body{margin:0;height:100%;height:100dvh;}
   body{
     background: var(--ink);
     color: var(--parchment);
@@ -285,7 +285,7 @@
    not a determined snooper. That's fine for this use case, but
    don't reuse a password you use anywhere else.
    ============================================================ */
-const SITE_PASSWORD = "Travel!";
+const SITE_PASSWORD = "changeme";
 
 const gateInput = document.getElementById('gate-input');
 const gateSubmit = document.getElementById('gate-submit');
@@ -438,23 +438,24 @@ function init(){
   renderList();
 }
 
-const query = searchEl.value.trim().toLowerCase();
+function renderList(){
+  const query = searchEl.value.trim().toLowerCase();
   listEl.innerHTML = '';
   let shown = 0;
- 
+
   PLACES.forEach((p, i) => {
     const matchesCat = activeCats.has(p.category);
     const haystack = (p.name + ' ' + p.address).toLowerCase();
     const matchesQuery = !query || haystack.includes(query);
     const visible = matchesCat && matchesQuery;
- 
+
     /* keep the map pins in sync with the list filters */
     if (visible && !map.hasLayer(markers[i])) markers[i].addTo(map);
     if (!visible && map.hasLayer(markers[i])) map.removeLayer(markers[i]);
- 
+
     if (!visible) return;
     shown++;
- 
+
     const card = document.createElement('div');
     card.className = 'place-card' + (i === selectedIndex ? ' selected' : '');
     card.innerHTML = `
@@ -466,7 +467,7 @@ const query = searchEl.value.trim().toLowerCase();
     card.onclick = () => selectPlace(i, true);
     listEl.appendChild(card);
   });
- 
+
   if (shown === 0){
     listEl.innerHTML = `<div class="empty-msg">No places match. Try clearing the search or turning a category back on.</div>`;
   }
