@@ -265,7 +265,7 @@
 
 <div class="layout">
   <div id="sidebar">
-    <input type="text" id="search" placeholder="Search a place or city..." />
+    <input type="text" id="search" placeholder="Search by city or country..." />
     <div id="filters"></div>
     <div id="list"><div class="status-msg">Loading places…</div></div>
   </div>
@@ -445,7 +445,9 @@ function renderList(){
 
   PLACES.forEach((p, i) => {
     const matchesCat = activeCats.has(p.category);
-    const haystack = (p.name + ' ' + p.address).toLowerCase();
+    const searchable = [p.name, p.city, p.country];
+    if (!p.city && !p.country) searchable.push(p.address); // fallback for unparsed addresses
+    const haystack = searchable.join(' ').toLowerCase();
     const matchesQuery = !query || haystack.includes(query);
     const visible = matchesCat && matchesQuery;
 
