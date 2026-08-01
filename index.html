@@ -7,6 +7,8 @@
 <title>Alix & Alessandro Favourites'</title>
 <meta name="description" content="All the suggestions you need">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/MarkerCluster.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/MarkerCluster.Default.css" />
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Space+Mono:wght@400;700&display=swap');
 
@@ -179,10 +181,24 @@
     box-shadow: 0 2px 5px rgba(0,0,0,0.4);
   }
 
+  .cluster-icon{
+    background: var(--brass);
+    border: 2px solid var(--brass-bright);
+    border-radius: 50%;
+    display:flex; align-items:center; justify-content:center;
+    color: var(--ink);
+    font-family:'Space Mono', monospace;
+    font-weight:700;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.5);
+  }
+  .cluster-small{width:34px;height:34px;font-size:12px;}
+  .cluster-medium{width:42px;height:42px;font-size:13px; background: var(--brass-bright);}
+  .cluster-large{width:50px;height:50px;font-size:14px; background:#E1633D; border-color:#fff;}
+
   @media (max-width: 720px){
     .layout{flex-direction:column;}
-    #sidebar{width:100%; flex:1; min-height:0; border-right:none; border-bottom:1px solid var(--line);}
-    #map{height:38dvh; height:38vh; flex-shrink:0;}
+    #sidebar{width:100%; flex:3 1 0; min-height:0; border-right:none; border-bottom:1px solid var(--line); overflow-y:auto;}
+    #map{flex:2 1 0; min-height:0; width:100%;}
   }
 
   /* Password gate */
@@ -275,6 +291,7 @@
 </div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/leaflet.markercluster.js"></script>
 <script>
 
 /* ============================================================
@@ -407,9 +424,28 @@ fetch(DATA_URL)
     </div>`;
   });
 
+function customClusterIcon(cluster){
+  const count = cluster.getChildCount();
+  let sizeClass = 'small';
+  if (count >= 50) sizeClass = 'large';
+  else if (count >= 10) sizeClass = 'medium';
+  return L.divIcon({
+    html: `<div class="cluster-icon cluster-${sizeClass}"><span>${count}</span></div>`,
+    className: '',
+    iconSize: L.point(44, 44)
+  });
+}
+
+const clusterGroup = L.markerClusterGroup({
+  iconCreateFunction: customClusterIcon,
+  showCoverageOnHover: false,
+  spiderfyOnMaxZoom: true,
+  maxClusterRadius: 50
+});
+
 function init(){
   markers = PLACES.map((p, i) => {
-    const marker = L.marker([p.lat, p.lng], { icon: makeIcon(colorFor(p.category)) }).addTo(map);
+    const marker = L.marker([p.lat, p.lng], { icon: makeIcon(colorFor(p.category)) });
     marker.bindPopup(`
       <div class="popup-name">${p.name}</div>
       <div class="popup-cat">${p.category}</div>
@@ -419,6 +455,9 @@ function init(){
     marker.on('click', () => selectPlace(i, false));
     return marker;
   });
+
+  clusterGroup.addLayers(markers);
+  map.addLayer(clusterGroup);
 
   categories = [...new Set(PLACES.map(p => p.category))];
   activeCats = new Set(); // empty = no filter, show everything
@@ -454,8 +493,8 @@ function renderList(){
     const visible = matchesCat && matchesQuery;
 
     /* keep the map pins in sync with the list filters */
-    if (visible && !map.hasLayer(markers[i])) markers[i].addTo(map);
-    if (!visible && map.hasLayer(markers[i])) map.removeLayer(markers[i]);
+    if (visible && !clusterGroup.hasLayer(markers[i])) clusterGroup.addLayer(markers[i]);
+    if (!visible && clusterGroup.hasLayer(markers[i])) clusterGroup.removeLayer(markers[i]);
 
     if (!visible) return;
     shown++;
@@ -480,11 +519,13 @@ function renderList(){
 function selectPlace(i, flyTo){
   selectedIndex = i;
   renderList();
-  const p = PLACES[i];
   if (flyTo){
-    map.flyTo([p.lat, p.lng], 13, { duration: 0.6 });
+    clusterGroup.zoomToShowLayer(markers[i], () => {
+      markers[i].openPopup();
+    });
+  } else {
+    markers[i].openPopup();
   }
-  markers[i].openPopup();
 }
 
 </script>
