@@ -419,11 +419,11 @@ function init(){
   });
 
   categories = [...new Set(PLACES.map(p => p.category))];
-  activeCats = new Set(categories);
+  activeCats = new Set(); // empty = no filter, show everything
 
   categories.forEach(cat => {
     const chip = document.createElement('button');
-    chip.className = 'chip active';
+    chip.className = 'chip';
     chip.style.color = colorFor(cat);
     chip.innerHTML = `<span class="dot" style="background:${colorFor(cat)}"></span>${cat}`;
     chip.onclick = () => {
@@ -444,7 +444,7 @@ function renderList(){
   let shown = 0;
 
   PLACES.forEach((p, i) => {
-    const matchesCat = activeCats.has(p.category);
+    const matchesCat = activeCats.size === 0 || activeCats.has(p.category);
     const searchable = [p.name, p.city, p.country];
     if (!p.city && !p.country) searchable.push(p.address); // fallback for unparsed addresses
     const haystack = searchable.join(' ').toLowerCase();
