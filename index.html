@@ -150,6 +150,8 @@
     margin-bottom:6px;
     display:flex;
     align-items:center;
+    flex-wrap:wrap;
+    row-gap:4px;
     gap:6px;
   }
   .place-cat .dot{width:6px;height:6px;border-radius:50%;display:inline-block;}
@@ -196,9 +198,12 @@
   .cluster-large{width:50px;height:50px;font-size:14px; background:#E1633D; border-color:#fff;}
 
   @media (max-width: 720px){
-    .layout{flex-direction:column;}
-    #sidebar{width:100%; flex:3 1 0; min-height:0; border-right:none; border-bottom:1px solid var(--line); overflow-y:auto;}
-    #map{flex:2 1 0; min-height:0; width:100%;}
+    #sidebar{width:44%; flex:0 0 44%; border-right:1px solid var(--line); border-bottom:none;}
+    #map{flex:1;}
+    #filters{flex-wrap:nowrap; overflow-x:auto; padding-bottom:10px;}
+    .chip{flex-shrink:0;}
+    .place-name{font-size:14px;}
+    .place-addr, .place-note{font-size:11px;}
   }
 
   /* Password gate */
@@ -380,6 +385,16 @@ function colorFor(cat){
   return CATEGORY_COLORS[cat] || CATEGORY_COLORS["Default"];
 }
 
+/* Tags are open-ended (54+ of them, more may appear later), so tag
+   chip colors are assigned automatically from a small palette rather
+   than curated by hand. Same tag always gets the same color. */
+const TAG_PALETTE = ["#E1633D","#4FA8A0","#C9A24B","#8B5FBF","#8A9A5B","#5B8DEF","#D46A9F","#4FA8A0","#E5A23D","#6FA8DC"];
+function colorForTag(tag){
+  let hash = 0;
+  for (let i = 0; i < tag.length; i++){ hash = tag.charCodeAt(i) + ((hash << 5) - hash); }
+  return TAG_PALETTE[Math.abs(hash) % TAG_PALETTE.length];
+}
+
 const map = L.map('map', { zoomControl: true }).setView([30, 10], 2);
 L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
   attribution: '&copy; OpenStreetMap &copy; CARTO',
@@ -398,8 +413,8 @@ function makeIcon(color){
 
 let PLACES = [];
 let markers = [];
-let categories = [];
-let activeCats = new Set();
+let allTags = [];
+let activeTags = new Set();
 let selectedIndex = null;
 
 const listEl = document.getElementById('list');
@@ -448,7 +463,7 @@ function init(){
     const marker = L.marker([p.lat, p.lng], { icon: makeIcon(colorFor(p.category)) });
     marker.bindPopup(`
       <div class="popup-name">${p.name}</div>
-      <div class="popup-cat">${p.category}</div>
+      <div class="popup-cat">${(p.tags || []).join(' · ')}</div>
       <div class="popup-addr">${p.address}</div>
       <div class="popup-note">${p.note || ''}</div>
     `);
@@ -459,17 +474,17 @@ function init(){
   clusterGroup.addLayers(markers);
   map.addLayer(clusterGroup);
 
-  categories = [...new Set(PLACES.map(p => p.category))];
-  activeCats = new Set(); // empty = no filter, show everything
+  allTags = [...new Set(PLACES.flatMap(p => p.tags || []))].sort();
+  activeTags = new Set(); // empty = no filter, show everything
 
-  categories.forEach(cat => {
+  allTags.forEach(tag => {
     const chip = document.createElement('button');
     chip.className = 'chip';
-    chip.style.color = colorFor(cat);
-    chip.innerHTML = `<span class="dot" style="background:${colorFor(cat)}"></span>${cat}`;
+    chip.style.color = colorForTag(tag);
+    chip.innerHTML = `<span class="dot" style="background:${colorForTag(tag)}"></span>${tag}`;
     chip.onclick = () => {
-      if (activeCats.has(cat)) { activeCats.delete(cat); chip.classList.remove('active'); }
-      else { activeCats.add(cat); chip.classList.add('active'); }
+      if (activeTags.has(tag)) { activeTags.delete(tag); chip.classList.remove('active'); }
+      else { activeTags.add(tag); chip.classList.add('active'); }
       renderList();
     };
     filtersEl.appendChild(chip);
@@ -485,12 +500,13 @@ function renderList(){
   let shown = 0;
 
   PLACES.forEach((p, i) => {
-    const matchesCat = activeCats.size === 0 || activeCats.has(p.category);
+    const placeTags = p.tags || [];
+    const matchesTags = activeTags.size === 0 || placeTags.some(t => activeTags.has(t));
     const searchable = [p.name, p.city, p.country];
     if (!p.city && !p.country) searchable.push(p.address); // fallback for unparsed addresses
     const haystack = searchable.join(' ').toLowerCase();
     const matchesQuery = !query || haystack.includes(query);
-    const visible = matchesCat && matchesQuery;
+    const visible = matchesTags && matchesQuery;
 
     /* keep the map pins in sync with the list filters */
     if (visible && !clusterGroup.hasLayer(markers[i])) clusterGroup.addLayer(markers[i]);
@@ -499,11 +515,15 @@ function renderList(){
     if (!visible) return;
     shown++;
 
+    const tagPills = placeTags.map(t =>
+      `<span class="dot" style="background:${colorForTag(t)}"></span>${t}`
+    ).join('&nbsp;&nbsp;');
+
     const card = document.createElement('div');
     card.className = 'place-card' + (i === selectedIndex ? ' selected' : '');
     card.innerHTML = `
       <div class="place-name">${p.name}</div>
-      <div class="place-cat"><span class="dot" style="background:${colorFor(p.category)}"></span>${p.category}</div>
+      <div class="place-cat">${tagPills}</div>
       <div class="place-addr">${p.address}</div>
       <div class="place-note">${p.note || ''}</div>
     `;
