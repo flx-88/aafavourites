@@ -88,6 +88,14 @@
   }
   #search:focus{outline:1px solid var(--brass); border-color: var(--brass);}
 
+  .filter-label{
+    margin:0 16px 8px;
+    font-size:10px;
+    letter-spacing:1.5px;
+    text-transform:uppercase;
+    opacity:0.5;
+  }
+
   #filters{
     display:flex;
     flex-wrap:wrap;
@@ -336,6 +344,7 @@
 <div class="layout">
   <div id="sidebar">
     <input type="text" id="search" placeholder="Search by city or country..." />
+    <div class="filter-label">Search by category</div>
     <div id="filters"></div>
     <div id="list"><div class="status-msg">Loading places…</div></div>
   </div>
@@ -358,7 +367,7 @@
    not a determined snooper. That's fine for this use case, but
    don't reuse a password you use anywhere else.
    ============================================================ */
-const SITE_PASSWORD = "Tr@vel!";
+const SITE_PASSWORD = "changeme";
 
 const gateInput = document.getElementById('gate-input');
 const gateSubmit = document.getElementById('gate-submit');
@@ -585,7 +594,7 @@ function renderList(){
     if (!visible) return;
     shown++;
 
-    const tagPills = placeTags.map(t =>
+    const tagPills = (p.tags || []).map(t =>
       `<span class="dot" style="background:${colorForTag(t)}"></span>${t}`
     ).join('&nbsp;&nbsp;');
 
