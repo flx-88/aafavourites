@@ -219,6 +219,8 @@
   .cluster-medium{width:42px;height:42px;font-size:13px; background: var(--brass-bright);}
   .cluster-large{width:50px;height:50px;font-size:14px; background:#E1633D; border-color:#fff;}
 
+  #viewToggle{display:none;}
+
   @media (max-width: 720px){
     header{padding:10px 16px 8px; gap:2px; flex-wrap:wrap;}
     header h1{font-size:17px; line-height:1.25;}
@@ -250,7 +252,6 @@
       cursor:pointer;
     }
   }
-  #viewToggle{display:none;}
 
   /* Password gate */
   #gate{
@@ -357,7 +358,7 @@
    not a determined snooper. That's fine for this use case, but
    don't reuse a password you use anywhere else.
    ============================================================ */
-const SITE_PASSWORD = "Tr@vel!";
+const SITE_PASSWORD = "changeme";
 
 const gateInput = document.getElementById('gate-input');
 const gateSubmit = document.getElementById('gate-submit');
@@ -409,51 +410,40 @@ const DATA_URL = "places.json";
 /* Pin groups — 6 visual groups covering all your place types, each
    with its own color and icon so pins are identifiable at a glance
    even on a small phone screen. Add a line here if a new category
-   type ever appears; anything not listed falls back to "Default". */
-const PIN_GROUPS = {
-  /* Food & drink — coral, fork & knife */
-  "Restaurant": ["#E1633D","fa-utensils"], "Cafe": ["#E1633D","fa-utensils"],
-  "Bar": ["#E1633D","fa-utensils"], "Beer": ["#E1633D","fa-utensils"],
-  "Wine": ["#E1633D","fa-utensils"], "Bakery": ["#E1633D","fa-utensils"],
-  "Icecream": ["#E1633D","fa-utensils"], "Pizza": ["#E1633D","fa-utensils"],
-  "Fastfood": ["#E1633D","fa-utensils"], "Streetfood": ["#E1633D","fa-utensils"],
-  "Takeout": ["#E1633D","fa-utensils"], "Supermarket": ["#E1633D","fa-utensils"],
-  "Nightclub": ["#E1633D","fa-utensils"],
-
-  /* Nature & outdoors — teal, tree */
-  /* Beaches — sandy gold, umbrella */
-  "Beach": ["#F0B860","fa-umbrella-beach"],
-
-  /* Nature & outdoors — teal, tree */
-  "Forest": ["#4FA8A0","fa-tree"],
-  "Hiking": ["#4FA8A0","fa-tree"], "Mountain": ["#4FA8A0","fa-tree"],
-  "Park": ["#4FA8A0","fa-tree"], "Climbing": ["#4FA8A0","fa-tree"],
-  "Ski": ["#4FA8A0","fa-tree"], "Swimming": ["#4FA8A0","fa-tree"],
-  "Fishing": ["#4FA8A0","fa-tree"],
-
-  /* Culture & sights — gold, landmark */
-  "Art Gallery": ["#C9A24B","fa-landmark"], "Museum": ["#C9A24B","fa-landmark"],
-  "Monument": ["#C9A24B","fa-landmark"], "Historic": ["#C9A24B","fa-landmark"],
-  "Civic": ["#C9A24B","fa-landmark"], "Worship": ["#C9A24B","fa-landmark"],
-  "Worship Christian": ["#C9A24B","fa-landmark"], "Spectacle": ["#C9A24B","fa-landmark"],
-  "Music": ["#C9A24B","fa-landmark"],
-
-  /* Lodging — blue, bed */
-  "Lodging": ["#5B8DEF","fa-bed"],
-
-  /* Shopping & transit — plum, bag */
-  "Shopping": ["#8B5FBF","fa-bag-shopping"], "Parking": ["#8B5FBF","fa-bag-shopping"],
-  "Train": ["#8B5FBF","fa-bag-shopping"], "Industry": ["#8B5FBF","fa-bag-shopping"],
-
-  /* Personal markers — olive, heart */
-  "Heart": ["#8A9A5B","fa-heart"], "Thumbup": ["#8A9A5B","fa-heart"],
-  "Geocode": ["#8A9A5B","fa-heart"],
-
-  "Default": ["#C9A24B","fa-map-pin"]
+   type ever appears; anything not listed falls back to "Other". */
+const GROUPS = {
+  "Food & Drink":       { color: "#E1633D", icon: "fa-utensils",
+    members: ["Restaurant","Cafe","Bar","Beer","Wine","Bakery","Icecream","Pizza","Fastfood","Streetfood","Takeout","Supermarket","Nightclub"] },
+  "Beaches":            { color: "#F0B860", icon: "fa-umbrella-beach",
+    members: ["Beach"] },
+  "Nature & Outdoors":  { color: "#4FA8A0", icon: "fa-tree",
+    members: ["Forest","Hiking","Mountain","Park","Climbing","Ski","Swimming","Fishing"] },
+  "Culture & Sights":   { color: "#C9A24B", icon: "fa-landmark",
+    members: ["Art Gallery","Museum","Monument","Historic","Civic","Worship","Worship Christian","Spectacle","Music"] },
+  "Lodging":            { color: "#5B8DEF", icon: "fa-bed",
+    members: ["Lodging"] },
+  "Shopping & Transit": { color: "#8B5FBF", icon: "fa-bag-shopping",
+    members: ["Shopping","Parking","Train","Industry"] },
+  "Personal Markers":   { color: "#8A9A5B", icon: "fa-heart",
+    members: ["Heart","Thumbup","Geocode"] }
 };
+const GROUP_NAMES = Object.keys(GROUPS);
+const DEFAULT_GROUP = { color: "#C9A24B", icon: "fa-map-pin" };
+
+/* Reverse lookup: which group does a given place category belong to */
+const CATEGORY_TO_GROUP = {};
+for (const [groupName, group] of Object.entries(GROUPS)){
+  group.members.forEach(cat => { CATEGORY_TO_GROUP[cat] = groupName; });
+}
+
+function groupFor(cat){
+  return CATEGORY_TO_GROUP[cat] || null;
+}
 
 function pinFor(cat){
-  return PIN_GROUPS[cat] || PIN_GROUPS["Default"];
+  const groupName = groupFor(cat);
+  const group = groupName ? GROUPS[groupName] : DEFAULT_GROUP;
+  return [group.color, group.icon];
 }
 
 /* Uses a real website URL if one is set on the place; otherwise
@@ -493,8 +483,7 @@ function makeIcon(color, iconClass){
 
 let PLACES = [];
 let markers = [];
-let allTags = [];
-let activeTags = new Set();
+let activeGroups = new Set();
 let selectedIndex = null;
 
 const listEl = document.getElementById('list');
@@ -556,17 +545,17 @@ function init(){
   clusterGroup.addLayers(markers);
   map.addLayer(clusterGroup);
 
-  allTags = [...new Set(PLACES.flatMap(p => p.tags || []))].sort();
-  activeTags = new Set(); // empty = no filter, show everything
+  activeGroups = new Set(); // empty = no filter, show everything
 
-  allTags.forEach(tag => {
+  GROUP_NAMES.forEach(groupName => {
+    const group = GROUPS[groupName];
     const chip = document.createElement('button');
     chip.className = 'chip';
-    chip.style.color = colorForTag(tag);
-    chip.innerHTML = `<span class="dot" style="background:${colorForTag(tag)}"></span>${tag}`;
+    chip.style.color = group.color;
+    chip.innerHTML = `<i class="fa-solid ${group.icon}"></i>&nbsp;${groupName}`;
     chip.onclick = () => {
-      if (activeTags.has(tag)) { activeTags.delete(tag); chip.classList.remove('active'); }
-      else { activeTags.add(tag); chip.classList.add('active'); }
+      if (activeGroups.has(groupName)) { activeGroups.delete(groupName); chip.classList.remove('active'); }
+      else { activeGroups.add(groupName); chip.classList.add('active'); }
       renderList();
     };
     filtersEl.appendChild(chip);
@@ -582,13 +571,12 @@ function renderList(){
   let shown = 0;
 
   PLACES.forEach((p, i) => {
-    const placeTags = p.tags || [];
-    const matchesTags = activeTags.size === 0 || placeTags.some(t => activeTags.has(t));
+    const matchesGroup = activeGroups.size === 0 || activeGroups.has(groupFor(p.category));
     const searchable = [p.name, p.city, p.country];
     if (!p.city && !p.country) searchable.push(p.address); // fallback for unparsed addresses
     const haystack = searchable.join(' ').toLowerCase();
     const matchesQuery = !query || haystack.includes(query);
-    const visible = matchesTags && matchesQuery;
+    const visible = matchesGroup && matchesQuery;
 
     /* keep the map pins in sync with the list filters */
     if (visible && !clusterGroup.hasLayer(markers[i])) clusterGroup.addLayer(markers[i]);
