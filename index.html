@@ -14,20 +14,21 @@
   @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Space+Mono:wght@400;700&display=swap');
 
   :root{
-    --ink: #16232F;
-    --ink-panel: #1E3040;
-    --ink-panel-2: #24394A;
-    --parchment: #ECE4D1;
-    --brass: #C9A24B;
-    --brass-bright: #E5C572;
-    --line: rgba(236,228,209,0.14);
+    --bg: #FFFFFF;
+    --panel-2: #F4E3C1;      /* sand — cards, gate box */
+    --ink: #1D3A45;          /* dark ocean ink — all text & icon-on-color */
+    --ocean: #3FA9F5;        /* primary accent */
+    --ocean-bright: #6EC1FF;
+    --sun: #F6C453;          /* warm yellow — secondary accent */
+    --palm: #2E8B57;         /* palm green — tertiary accent */
+    --line: rgba(29,58,69,0.14);
   }
 
   *{box-sizing:border-box;}
   html,body{margin:0;height:100%;height:100dvh;}
   body{
-    background: var(--ink);
-    color: var(--parchment);
+    background: var(--bg);
+    color: var(--ink);
     font-family: 'Space Mono', monospace;
     display:flex;
     flex-direction:column;
@@ -41,7 +42,7 @@
     padding:18px 24px 14px;
     border-bottom:1px solid var(--line);
     flex-shrink:0;
-    background: var(--ink);
+    background: var(--bg);
   }
   header h1{
     font-family:'Fraunces', serif;
@@ -49,13 +50,14 @@
     font-size:26px;
     letter-spacing:0.5px;
     margin:0;
-    color: var(--brass-bright);
+    color: var(--ocean);
   }
   header .tagline{
     font-size:11px;
     letter-spacing:1.5px;
     text-transform:uppercase;
-    opacity:0.55;
+    color: var(--palm);
+    opacity:0.85;
   }
 
   .layout{
@@ -67,7 +69,7 @@
   #sidebar{
     width:340px;
     flex-shrink:0;
-    background: var(--ink-panel);
+    background: var(--bg);
     border-right:1px solid var(--line);
     display:flex;
     flex-direction:column;
@@ -79,21 +81,22 @@
   #search{
     margin:16px 16px 10px;
     padding:10px 12px;
-    background: var(--ink);
+    background: var(--bg);
     border:1px solid var(--line);
     border-radius:3px;
-    color: var(--parchment);
+    color: var(--ink);
     font-family:'Space Mono', monospace;
     font-size:13px;
   }
-  #search:focus{outline:1px solid var(--brass); border-color: var(--brass);}
+  #search:focus{outline:1px solid var(--ocean); border-color: var(--ocean);}
 
   .filter-label{
     margin:0 16px 8px;
     font-size:10px;
     letter-spacing:1.5px;
     text-transform:uppercase;
-    opacity:0.5;
+    color: var(--palm);
+    opacity:0.9;
   }
 
   #filters{
@@ -113,15 +116,15 @@
     border:1px solid var(--line);
     cursor:pointer;
     background:transparent;
-    color: var(--parchment);
-    opacity:0.6;
+    color: var(--ink);
+    opacity:0.65;
     transition: all .15s ease;
     display:flex;
     align-items:center;
     gap:6px;
   }
   .chip .dot{width:7px;height:7px;border-radius:50%;display:inline-block;}
-  .chip.active{opacity:1; border-color: currentColor; background: rgba(255,255,255,0.05);}
+  .chip.active{opacity:1; border-color: currentColor; background: rgba(29,58,69,0.05);}
 
   #list{
     flex:1;
@@ -129,26 +132,26 @@
     padding: 6px 0 20px;
   }
   #list::-webkit-scrollbar{width:6px;}
-  #list::-webkit-scrollbar-thumb{background: var(--ink-panel-2); border-radius:4px;}
+  #list::-webkit-scrollbar-thumb{background: var(--panel-2); border-radius:4px;}
 
   .place-card{
     margin:10px 14px;
     padding:12px 14px;
-    background: var(--ink-panel-2);
-    border-left: 3px solid var(--brass);
+    background: var(--panel-2);
+    border-left: 3px solid var(--ocean);
     border-radius:2px;
     cursor:pointer;
     transition: transform .12s ease, background .12s ease;
     position:relative;
   }
-  .place-card:hover{background:#2c4459; transform: translateX(2px);}
-  .place-card.selected{background:#2f4c63; box-shadow: inset 0 0 0 1px var(--brass);}
+  .place-card:hover{background:#EFDCAE; transform: translateX(2px);}
+  .place-card.selected{background:#EFDCAE; box-shadow: inset 0 0 0 1px var(--ocean);}
 
   .place-name{
     font-family:'Fraunces', serif;
     font-weight:600;
     font-size:15.5px;
-    color: var(--parchment);
+    color: var(--ink);
     margin:0 0 4px;
   }
   .place-cat{
@@ -164,7 +167,7 @@
     gap:6px;
   }
   .place-cat .dot{width:6px;height:6px;border-radius:50%;display:inline-block;}
-  .place-addr{font-size:11.5px; opacity:0.55; margin-bottom:4px;}
+  .place-addr{font-size:11.5px; opacity:0.6; margin-bottom:4px;}
   .place-note{font-size:12px; opacity:0.85; line-height:1.4; font-family: 'Fraunces', serif;}
 
   .place-link{
@@ -175,36 +178,36 @@
     font-size:11px;
     letter-spacing:0.5px;
     text-transform:uppercase;
-    color: var(--brass-bright);
+    color: var(--ocean);
     text-decoration:none;
     border-bottom:1px solid transparent;
   }
-  .place-link:hover{border-bottom-color: var(--brass-bright);}
+  .place-link:hover{border-bottom-color: var(--ocean);}
   .popup-note + .place-link{margin-top:8px; display:inline-flex;}
 
   .empty-msg, .status-msg{padding:30px 20px; text-align:center; opacity:0.6; font-size:12.5px; line-height:1.6;}
-  .status-msg.error{color:#E1633D; opacity:0.9;}
+  .status-msg.error{color:#D64545; opacity:0.9;}
 
-  #map{flex:1; background:#0d161f; position:relative; z-index:1; overflow:hidden;}
+  #map{flex:1; background:#EAF4FB; position:relative; z-index:1; overflow:hidden;}
 
   .leaflet-popup-content-wrapper{
-    background: var(--ink-panel);
-    color: var(--parchment);
+    background: var(--bg);
+    color: var(--ink);
     border-radius:3px;
-    border: 1px solid var(--brass);
+    border: 1px solid var(--ocean);
   }
-  .leaflet-popup-tip{background: var(--ink-panel);}
-  .popup-name{font-family:'Fraunces', serif; font-weight:700; font-size:16px; margin:0 0 4px; color:var(--brass-bright);}
+  .leaflet-popup-tip{background: var(--bg);}
+  .popup-name{font-family:'Fraunces', serif; font-weight:700; font-size:16px; margin:0 0 4px; color:var(--ocean);}
   .popup-cat{font-size:10px; text-transform:uppercase; letter-spacing:1px; opacity:0.7; margin-bottom:6px;}
-  .popup-addr{font-size:11.5px; opacity:0.6; margin-bottom:6px;}
+  .popup-addr{font-size:11.5px; opacity:0.65; margin-bottom:6px;}
   .popup-note{font-size:12.5px; line-height:1.4; font-family:'Fraunces', serif;}
 
   .pin-icon{
     width:28px; height:28px;
     border-radius:50% 50% 50% 0;
     transform: rotate(-45deg);
-    border: 2px solid var(--parchment);
-    box-shadow: 0 2px 5px rgba(0,0,0,0.4);
+    border: 2px solid #FFFFFF;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.25);
     display:flex; align-items:center; justify-content:center;
   }
   .pin-icon i{
@@ -214,18 +217,18 @@
   }
 
   .cluster-icon{
-    background: var(--brass);
-    border: 2px solid var(--brass-bright);
+    background: var(--sun);
+    border: 2px solid #FFFFFF;
     border-radius: 50%;
     display:flex; align-items:center; justify-content:center;
     color: var(--ink);
     font-family:'Space Mono', monospace;
     font-weight:700;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.5);
+    box-shadow: 0 2px 6px rgba(0,0,0,0.3);
   }
   .cluster-small{width:34px;height:34px;font-size:12px;}
-  .cluster-medium{width:42px;height:42px;font-size:13px; background: var(--brass-bright);}
-  .cluster-large{width:50px;height:50px;font-size:14px; background:#E1633D; border-color:#fff;}
+  .cluster-medium{width:42px;height:42px;font-size:13px; background: var(--ocean-bright); color:#FFFFFF;}
+  .cluster-large{width:50px;height:50px;font-size:14px; background:var(--ocean); color:#FFFFFF; border-color:#fff;}
 
   #viewToggle{display:none;}
 
@@ -246,8 +249,8 @@
       left:50%;
       transform:translateX(-50%);
       z-index:60;
-      background: var(--brass);
-      color: var(--ink);
+      background: var(--ocean);
+      color: #FFFFFF;
       border:none;
       padding:12px 26px;
       border-radius:24px;
@@ -256,7 +259,7 @@
       font-size:12.5px;
       letter-spacing:0.5px;
       text-transform:uppercase;
-      box-shadow: 0 4px 14px rgba(0,0,0,0.5);
+      box-shadow: 0 4px 14px rgba(0,0,0,0.25);
       cursor:pointer;
     }
   }
@@ -264,49 +267,49 @@
   /* Password gate */
   #gate{
     position:fixed; inset:0;
-    background: var(--ink);
+    background: var(--bg);
     display:flex; align-items:center; justify-content:center;
     z-index: 9999;
   }
   #gate-box{
     text-align:center;
     padding:36px 40px;
-    background: var(--ink-panel);
+    background: var(--panel-2);
     border:1px solid var(--line);
     border-radius:4px;
     max-width:320px;
   }
   #gate-box h2{
     font-family:'Fraunces', serif;
-    color: var(--brass-bright);
+    color: var(--ocean);
     margin:0 0 8px;
     font-size:22px;
   }
   #gate-box p{
     font-size:12px;
-    opacity:0.6;
+    opacity:0.7;
     margin:0 0 18px;
     line-height:1.5;
   }
   #gate-input{
     width:100%;
     padding:10px 12px;
-    background: var(--ink);
+    background: var(--bg);
     border:1px solid var(--line);
     border-radius:3px;
-    color: var(--parchment);
+    color: var(--ink);
     font-family:'Space Mono', monospace;
     font-size:14px;
     margin-bottom:10px;
   }
-  #gate-input:focus{outline:1px solid var(--brass); border-color: var(--brass);}
+  #gate-input:focus{outline:1px solid var(--ocean); border-color: var(--ocean);}
   #gate-submit{
     width:100%;
     padding:10px 12px;
-    background: var(--brass);
+    background: var(--ocean);
     border:none;
     border-radius:3px;
-    color: var(--ink);
+    color: #FFFFFF;
     font-family:'Space Mono', monospace;
     font-weight:700;
     font-size:13px;
@@ -314,7 +317,7 @@
     text-transform:uppercase;
     cursor:pointer;
   }
-  #gate-submit:hover{background: var(--brass-bright);}
+  #gate-submit:hover{background: var(--ocean-bright);}
   #gate-error{
     color:#E1633D;
     font-size:11.5px;
@@ -475,7 +478,7 @@ function colorForTag(tag){
 }
 
 const map = L.map('map', { zoomControl: true }).setView([30, 10], 2);
-L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
   attribution: '&copy; OpenStreetMap &copy; CARTO',
   maxZoom: 19
 }).addTo(map);
