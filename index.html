@@ -370,7 +370,7 @@
    not a determined snooper. That's fine for this use case, but
    don't reuse a password you use anywhere else.
    ============================================================ */
-const SITE_PASSWORD = "Tr@vel!";
+const SITE_PASSWORD = "changeme";
 
 const gateInput = document.getElementById('gate-input');
 const gateSubmit = document.getElementById('gate-submit');
@@ -536,8 +536,8 @@ const clusterGroup = L.markerClusterGroup({
   iconCreateFunction: customClusterIcon,
   showCoverageOnHover: false,
   spiderfyOnMaxZoom: true,
-  maxClusterRadius: 50,
-  disableClusteringAtZoom: 16
+  maxClusterRadius: 40,
+  disableClusteringAtZoom: 12
 });
 
 function init(){
