@@ -370,7 +370,7 @@
    not a determined snooper. That's fine for this use case, but
    don't reuse a password you use anywhere else.
    ============================================================ */
-const SITE_PASSWORD = "Tr@vel!";
+const SITE_PASSWORD = "changeme";
 
 const gateInput = document.getElementById('gate-input');
 const gateSubmit = document.getElementById('gate-submit');
@@ -431,13 +431,13 @@ const GROUPS = {
   "Nature & Outdoors":  { color: "#4FA8A0", icon: "fa-tree",
     members: ["Forest","Hiking","Mountain","Park","Climbing","Ski","Swimming","Fishing"] },
   "Culture & Sights":   { color: "#C9A24B", icon: "fa-landmark",
-    members: ["Art Gallery","Museum","Monument","Historic","Civic","Worship","Worship Christian","Spectacle","Music"] },
+    members: ["Art Gallery","Museum","Monument","Historic","Civic","Worship","Worship Christian","Spectacle","Music","School"] },
   "Lodging":            { color: "#5B8DEF", icon: "fa-bed",
     members: ["Lodging"] },
   "Shopping & Transit": { color: "#8B5FBF", icon: "fa-bag-shopping",
     members: ["Shopping","Parking","Train","Industry"] },
   "Personal Markers":   { color: "#8A9A5B", icon: "fa-heart",
-    members: ["Heart","Thumbup","Geocode"] }
+    members: ["Heart","Thumbup","Geocode","Generic"] }
 };
 const GROUP_NAMES = Object.keys(GROUPS);
 const DEFAULT_GROUP = { color: "#C9A24B", icon: "fa-map-pin" };
