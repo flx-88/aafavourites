@@ -237,10 +237,10 @@
     header h1{font-size:17px; line-height:1.25;}
     header .tagline{display:none;}
 
-    #sidebar{width:100%; flex:1;}
-    #map{display:none; width:100%;}
-    body.show-map #sidebar{display:none;}
-    body.show-map #map{display:block; flex:1;}
+    #sidebar{width:100%; flex:1; display:none;}
+    #map{display:block; width:100%;}
+    body.show-list #sidebar{display:block;}
+    body.show-list #map{display:none;}
 
     #viewToggle{
       display:block;
@@ -354,7 +354,7 @@
   <div id="map"></div>
 </div>
 
-<button id="viewToggle">Show Map</button>
+<button id="viewToggle">Show List</button>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/leaflet.markercluster.js"></script>
@@ -370,7 +370,7 @@
    not a determined snooper. That's fine for this use case, but
    don't reuse a password you use anywhere else.
    ============================================================ */
-const SITE_PASSWORD = "Tr@vel!";
+const SITE_PASSWORD = "changeme";
 
 const gateInput = document.getElementById('gate-input');
 const gateSubmit = document.getElementById('gate-submit');
@@ -395,9 +395,9 @@ gateInput.focus();
 /* Mobile-only full-screen List/Map toggle (button is hidden via CSS on desktop) */
 const viewToggle = document.getElementById('viewToggle');
 viewToggle.addEventListener('click', () => {
-  const showingMap = document.body.classList.toggle('show-map');
-  viewToggle.textContent = showingMap ? 'Show List' : 'Show Map';
-  if (showingMap) setTimeout(() => map.invalidateSize(), 100);
+  const showingList = document.body.classList.toggle('show-list');
+  viewToggle.textContent = showingList ? 'Show Map' : 'Show List';
+  if (!showingList) setTimeout(() => map.invalidateSize(), 100);
 });
 
 /* ============================================================
@@ -536,7 +536,8 @@ const clusterGroup = L.markerClusterGroup({
   iconCreateFunction: customClusterIcon,
   showCoverageOnHover: false,
   spiderfyOnMaxZoom: true,
-  maxClusterRadius: 50
+  maxClusterRadius: 50,
+  disableClusteringAtZoom: 16
 });
 
 function init(){
@@ -623,8 +624,8 @@ function selectPlace(i, flyTo){
   selectedIndex = i;
   renderList();
   if (flyTo){
-    if (window.innerWidth <= 720 && !document.body.classList.contains('show-map')){
-      document.body.classList.add('show-map');
+    if (window.innerWidth <= 720 && document.body.classList.contains('show-list')){
+      document.body.classList.remove('show-list');
       viewToggle.textContent = 'Show List';
     }
     setTimeout(() => map.invalidateSize(), 50);
