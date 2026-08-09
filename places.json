@@ -21314,5 +21314,67 @@
     "note": "",
     "website": "",
     "id": "1288"
+  },
+  {
+    "name": "La Piadina del Pescatore",
+    "category": "Streetfood",
+    "tags": [
+      "To Try",
+      "Fish"
+    ],
+    "address": "Viale Carlo Matteucci, 47042 Cesenatico FC, Italia",
+    "city": "Cesenatico",
+    "country": "Italy",
+    "lat": 44.2023,
+    "lng": 12.4073,
+    "note": "Piadina con pesce, da provare assolutamente. Imboscata fra i magazzini del pesce e il mercato ittico, vicino al porto. Si possono fare incontri ravvicinati con i portuali 😅",
+    "website": "",
+    "id": "1289"
+  },
+  {
+    "name": "Piadineria del Boschetto",
+    "category": "Streetfood",
+    "tags": [
+      "To Try"
+    ],
+    "address": "Viale Cesare Abba 47, 47042 Cesenatico FC, Italia",
+    "city": "Cesenatico",
+    "country": "Italy",
+    "lat": 44.193,
+    "lng": 12.3985,
+    "note": "Classico baracchino della piadina con vista sul parcheggio dell'ospedale.",
+    "website": "",
+    "id": "1290"
+  },
+  {
+    "name": "I Vagabondi",
+    "category": "Streetfood",
+    "tags": [
+      "To Try",
+      "Historic"
+    ],
+    "address": "Viale Torino angolo Via de Amicis, 47042 Cesenatico FC, Italia",
+    "city": "Cesenatico",
+    "country": "Italy",
+    "lat": 44.1868,
+    "lng": 12.3952,
+    "note": "Chiosco precedentemente della famiglia di Marco Pantani.",
+    "website": "",
+    "id": "1291"
+  },
+  {
+    "name": "La Casa dei Nonni (Ristorante al Parco di Levante)",
+    "category": "Restaurant",
+    "tags": [
+      "To Try"
+    ],
+    "address": "Viale Cesare Abba, Parco di Levante, 47042 Cesenatico FC, Italia",
+    "city": "Cesenatico",
+    "country": "Italy",
+    "lat": 44.1832,
+    "lng": 12.3915,
+    "note": "Dentro il Parco di Levante, oltre la chiesa. Cucina tipica romagnola senza pretese, piatti di carta. Piadina buona, condimenti base. Interno stile anni '70 (ma più recente). Da provare un bicchiere di Albana con una fetta di ciambella romagnola da pucciare. La sera c'è la balera (a pagamento).",
+    "website": "",
+    "id": "1292"
   }
 ]
