@@ -21376,5 +21376,1556 @@
     "note": "Dentro il Parco di Levante, oltre la chiesa. Cucina tipica romagnola senza pretese, piatti di carta. Piadina buona, condimenti base. Interno stile anni '70 (ma più recente). Da provare un bicchiere di Albana con una fetta di ciambella romagnola da pucciare. La sera c'è la balera (a pagamento).",
     "website": "",
     "id": "1292"
+  },
+  {
+    "name": "Château de Penne",
+    "category": "Forest",
+    "tags": [
+      "Coolview",
+      "CoolBeach",
+      "Kids Friendly",
+      "To Try"
+    ],
+    "address": "Rue du Château, 81140 Penne, France",
+    "city": "Penne",
+    "country": "France",
+    "lat": 44.07846,
+    "lng": 1.727256,
+    "note": "Beach down by the river with kids park",
+    "website": "",
+    "id": "1293"
+  },
+  {
+    "name": "Salers",
+    "category": "Geocode",
+    "tags": [
+      "Suggested, not tested",
+      "Nice village",
+      "To Try"
+    ],
+    "address": "15140 Salers, France",
+    "city": "Salers",
+    "country": "France",
+    "lat": 45.137854,
+    "lng": 2.493809,
+    "note": "",
+    "website": "",
+    "id": "1294"
+  },
+  {
+    "name": "La Table Du Ciel",
+    "category": "Restaurant",
+    "tags": [
+      "Coolview",
+      "Modernfrench",
+      "To Try"
+    ],
+    "address": "place de la bride, Cordes-sur-Ciel, France",
+    "city": "Cordes-sur-Ciel",
+    "country": "France",
+    "lat": 44.0631879,
+    "lng": 1.951534,
+    "note": "",
+    "website": "",
+    "id": "1295"
+  },
+  {
+    "name": "Le Jardin de Lys",
+    "category": "Bar",
+    "tags": [
+      "Aperitivo",
+      "Coolview",
+      "To Try"
+    ],
+    "address": "Rue des Consuls, 81140 Puycelsi, France",
+    "city": "Puycelsi",
+    "country": "France",
+    "lat": 43.99298,
+    "lng": 1.7091814,
+    "note": "",
+    "website": "",
+    "id": "1296"
+  },
+  {
+    "name": "L' Auberge des Arcades",
+    "category": "Cafe",
+    "tags": [
+      "ClassicFrench",
+      "To Try"
+    ],
+    "address": "Place des Arcades, 81140 Castelnau-de-Montmiral, France",
+    "city": "Castelnau-de-Montmiral",
+    "country": "France",
+    "lat": 43.9656756,
+    "lng": 1.8198851,
+    "note": "",
+    "website": "",
+    "id": "1297"
+  },
+  {
+    "name": "Pizzeria Pappagone",
+    "category": "Pizza",
+    "tags": [
+      "Pizza",
+      "To Try"
+    ],
+    "address": "131 Stroud Green Rd, London N4 3PX, United Kingdom",
+    "city": "London N4 3PX",
+    "country": "United Kingdom",
+    "lat": 51.56942100000001,
+    "lng": -0.112823,
+    "note": "",
+    "website": "",
+    "id": "1298"
+  },
+  {
+    "name": "Manicomio Chelsea Restaurant",
+    "category": "Restaurant",
+    "tags": [
+      "Italian",
+      "To Try"
+    ],
+    "address": "83-85 Duke of York Square, London SW3 4LY, United Kingdom",
+    "city": "London SW3 4LY",
+    "country": "United Kingdom",
+    "lat": 51.4915148,
+    "lng": -0.1593644,
+    "note": "",
+    "website": "",
+    "id": "1299"
+  },
+  {
+    "name": "Hampton Court Palace",
+    "category": "Forest",
+    "tags": [
+      "Garden",
+      "To Try"
+    ],
+    "address": "East Molesey, Surrey KT8 9AU, United Kingdom",
+    "city": "Surrey KT8 9AU",
+    "country": "United Kingdom",
+    "lat": 51.4036128,
+    "lng": -0.3377623,
+    "note": "",
+    "website": "",
+    "id": "1300"
+  },
+  {
+    "name": "Royal Botanic Gardens, Kew",
+    "category": "Forest",
+    "tags": [
+      "Garden",
+      "To Try"
+    ],
+    "address": "Kew, Richmond, Surrey TW9 3AB, United Kingdom",
+    "city": "Surrey TW9 3AB",
+    "country": "United Kingdom",
+    "lat": 51.4787438,
+    "lng": -0.295573,
+    "note": "",
+    "website": "",
+    "id": "1301"
+  },
+  {
+    "name": "Richmond Park",
+    "category": "Forest",
+    "tags": [
+      "Garden",
+      "To Try"
+    ],
+    "address": "Richmond, Greater London, United Kingdom",
+    "city": "Greater London",
+    "country": "United Kingdom",
+    "lat": 51.4633727,
+    "lng": -0.2945531,
+    "note": "",
+    "website": "",
+    "id": "1302"
+  },
+  {
+    "name": "Panorama de Tefarerii",
+    "category": "Museum",
+    "tags": [
+      "Scenic spot",
+      "To Try"
+    ],
+    "address": "Huahine, French Polynesia",
+    "city": "Huahine",
+    "country": "French Polynesia",
+    "lat": -16.7882653,
+    "lng": -150.9889238,
+    "note": "",
+    "website": "",
+    "id": "1303"
+  },
+  {
+    "name": "Conrad Bora Bora Nui",
+    "category": "Lodging",
+    "tags": [
+      "Classy",
+      "CoolBeach",
+      "To Try"
+    ],
+    "address": "BP 502, Bora Bora 98730, French Polynesia",
+    "city": "",
+    "country": "",
+    "lat": -16.5297371,
+    "lng": -151.7678693,
+    "note": "",
+    "website": "",
+    "id": "1304"
+  },
+  {
+    "name": "Baie Faatemu",
+    "category": "Museum",
+    "tags": [
+      "Scenic spot",
+      "To Try"
+    ],
+    "address": "Oceania",
+    "city": "",
+    "country": "",
+    "lat": -16.884288787841797,
+    "lng": -151.425048828125,
+    "note": "",
+    "website": "",
+    "id": "1305"
+  },
+  {
+    "name": "Teahupo'o Beach",
+    "category": "Beach",
+    "tags": [
+      "CoolBeach",
+      "To Try"
+    ],
+    "address": "RT 4, Teahupoʻo French Polynesia, French Polynesia",
+    "city": "Teahupoʻo French Polynesia",
+    "country": "French Polynesia",
+    "lat": -17.844931,
+    "lng": -149.267824,
+    "note": "",
+    "website": "",
+    "id": "1306"
+  },
+  {
+    "name": "La Plage de Maui",
+    "category": "Restaurant",
+    "tags": [
+      "Fish",
+      "To Try"
+    ],
+    "address": "Taiʻarapu-Ouest, French Polynesia",
+    "city": "Taiʻarapu-Ouest",
+    "country": "French Polynesia",
+    "lat": -17.7842931,
+    "lng": -149.303874,
+    "note": "",
+    "website": "",
+    "id": "1307"
+  },
+  {
+    "name": "Belvédère de Taravao",
+    "category": "Mountain",
+    "tags": [
+      "Coolview",
+      "To Try"
+    ],
+    "address": "Unnamed Road, 6PFV+254, Taiarapu-Ouest, Polynésie française",
+    "city": "Taiarapu-Ouest",
+    "country": "Polynésie française",
+    "lat": -17.7774954,
+    "lng": -149.257048,
+    "note": "",
+    "website": "",
+    "id": "1308"
+  },
+  {
+    "name": "Praia da Pedra da Bica",
+    "category": "Beach",
+    "tags": [
+      "CoolBeach",
+      "To Try"
+    ],
+    "address": "7630 Zambujeira do Mar",
+    "city": "",
+    "country": "",
+    "lat": 37.5323356,
+    "lng": -8.786056,
+    "note": "",
+    "website": "",
+    "id": "1309"
+  },
+  {
+    "name": "Faro del Cabo de San Vicente",
+    "category": "Beach",
+    "tags": [
+      "CoolBeach",
+      "Scenic spot",
+      "To Try"
+    ],
+    "address": "Farol do Cabo de São Vicente, EN 268, 8650-370 Sagres, Vila do Bispo, Portugal",
+    "city": "Vila do Bispo",
+    "country": "Portugal",
+    "lat": 37.0230468,
+    "lng": -8.9964565,
+    "note": "",
+    "website": "",
+    "id": "1310"
+  },
+  {
+    "name": "Shangri-La Bosphorus İstanbul",
+    "category": "Lodging",
+    "tags": [
+      "Suggested, not tested",
+      "To Try"
+    ],
+    "address": "Sinanpaşa Mah., Hayrettin İskelesi Sk. No:1, 34353 Beşiktaş/İstanbul, Turkey",
+    "city": "Beşiktaş/İstanbul",
+    "country": "Turkey",
+    "lat": 41.040334,
+    "lng": 29.005279,
+    "note": "",
+    "website": "",
+    "id": "1311"
+  },
+  {
+    "name": "Dolmabahçe Palace",
+    "category": "Museum",
+    "tags": [
+      "Coolview",
+      "Sight",
+      "To Try"
+    ],
+    "address": "Dolmabahce Cd. 2, 34357 Beşiktaş Istanbul, Türkiye",
+    "city": "Beşiktaş Istanbul",
+    "country": "Türkiye",
+    "lat": 41.0391643,
+    "lng": 29.00045940000001,
+    "note": "",
+    "website": "",
+    "id": "1312"
+  },
+  {
+    "name": "Topkapi Palace",
+    "category": "Museum",
+    "tags": [
+      "Sight",
+      "To Try"
+    ],
+    "address": "Babi Humayun Cd. 1, 34122 Fatih Istanbul, Türkiye",
+    "city": "Fatih Istanbul",
+    "country": "Türkiye",
+    "lat": 41.0089972,
+    "lng": 28.9819285,
+    "note": "good BUT do not spend a day in there",
+    "website": "",
+    "id": "1313"
+  },
+  {
+    "name": "Beltur Kafe gülhane",
+    "category": "Cafe",
+    "tags": [
+      "Suggested, not tested",
+      "Cosy",
+      "To Try"
+    ],
+    "address": "34122 Cankurtaran, İstanbul Turkey",
+    "city": "Cankurtaran",
+    "country": "İstanbul Turkey",
+    "lat": 41.01248550415039,
+    "lng": 28.979049682617188,
+    "note": "",
+    "website": "",
+    "id": "1314"
+  },
+  {
+    "name": "Gülhane Parkı",
+    "category": "Forest",
+    "tags": [
+      "Garden",
+      "To Try"
+    ],
+    "address": "Cankurtaran Mh., 34122 İstanbul, Turkey",
+    "city": "İstanbul",
+    "country": "Turkey",
+    "lat": 41.0131745,
+    "lng": 28.9813951,
+    "note": "Tulip season in April and the parks are awesome, especially this one",
+    "website": "",
+    "id": "1315"
+  },
+  {
+    "name": "Basilica Cistern",
+    "category": "Museum",
+    "tags": [
+      "Sight",
+      "To Try"
+    ],
+    "address": "Alemdar Mh., Yerebatan Cd. 1/3, 34410 Fatih/İstanbul, Turkey",
+    "city": "Fatih/İstanbul",
+    "country": "Turkey",
+    "lat": 41.00838400000001,
+    "lng": 28.977878,
+    "note": "",
+    "website": "",
+    "id": "1316"
+  },
+  {
+    "name": "Suleymaniye Mosque",
+    "category": "Worship Islam",
+    "tags": [
+      "Sight",
+      "To Try"
+    ],
+    "address": "Süleymaniye, Prof. Sıddık Sami Onar Cd. No:1, 34116 Fatih/İstanbul, Türkiye",
+    "city": "Fatih/İstanbul",
+    "country": "Türkiye",
+    "lat": 41.016047,
+    "lng": 28.9639711,
+    "note": "",
+    "website": "",
+    "id": "1317"
+  },
+  {
+    "name": "Spice Bazaar",
+    "category": "Museum",
+    "tags": [
+      "Sight",
+      "Traditional",
+      "To Try"
+    ],
+    "address": "Fatih/İstanbul, Turkey",
+    "city": "Fatih/İstanbul",
+    "country": "Turkey",
+    "lat": 41.01650009999999,
+    "lng": 28.9705194,
+    "note": "SHOP",
+    "website": "",
+    "id": "1318"
+  },
+  {
+    "name": "Grand Bazaar",
+    "category": "Museum",
+    "tags": [
+      "Sight",
+      "To Try"
+    ],
+    "address": "Beyazıt Mh., İstanbul, Turkey",
+    "city": "İstanbul",
+    "country": "Turkey",
+    "lat": 41.0106848,
+    "lng": 28.9680681,
+    "note": "DO NOT SHOP",
+    "website": "",
+    "id": "1319"
+  },
+  {
+    "name": "Sultanahmet",
+    "category": "Museum",
+    "tags": [
+      "Sight",
+      "To Try"
+    ],
+    "address": "Divanyolu Cd. 26–40, 34110 Fatih Istanbul, Türkiye",
+    "city": "Fatih Istanbul",
+    "country": "Türkiye",
+    "lat": 41.0082005,
+    "lng": 28.9717288,
+    "note": "",
+    "website": "",
+    "id": "1320"
+  },
+  {
+    "name": "Hagia Sophia Grand Mosque",
+    "category": "Museum",
+    "tags": [
+      "Sight",
+      "To Try"
+    ],
+    "address": "Sultanahmet Mh., Ayasofya Meydanı, Fatih/İstanbul, Turkey",
+    "city": "Fatih/İstanbul",
+    "country": "Turkey",
+    "lat": 41.008583,
+    "lng": 28.980175,
+    "note": "",
+    "website": "",
+    "id": "1321"
+  },
+  {
+    "name": "Çırağan Palace Kempinski",
+    "category": "Lodging",
+    "tags": [
+      "Classy",
+      "To Try"
+    ],
+    "address": "Çırağan Cd. No:32, 34349 Beşiktaş/İstanbul, Turkey",
+    "city": "Beşiktaş/İstanbul",
+    "country": "Turkey",
+    "lat": 41.0439752,
+    "lng": 29.0161433,
+    "note": "",
+    "website": "",
+    "id": "1322"
+  },
+  {
+    "name": "Ulus 29 Restorant",
+    "category": "Nightclub",
+    "tags": [
+      "Suggested, not tested",
+      "To Try"
+    ],
+    "address": "Kuruçeşme, 34345 İstanbul, Turkey",
+    "city": "İstanbul",
+    "country": "Turkey",
+    "lat": 41.06408039999999,
+    "lng": 29.0316713,
+    "note": "",
+    "website": "",
+    "id": "1323"
+  },
+  {
+    "name": "Alexandra Cocktail Bar",
+    "category": "Bar",
+    "tags": [
+      "Bar",
+      "To Try"
+    ],
+    "address": "Arnavutköy Mahallesi",
+    "city": "",
+    "country": "",
+    "lat": 41.0674,
+    "lng": 29.04379,
+    "note": "Go there at afternoon / sunset. Gets crazy at night - overcrowded",
+    "website": "",
+    "id": "1324"
+  },
+  {
+    "name": "Sunset Grill&Bar",
+    "category": "Bar",
+    "tags": [
+      "Classy",
+      "To Try"
+    ],
+    "address": "Ulus Park, Kuruçesme Mh., Yol Sk. No:2, Ulus / Beşiktaş/İstanbul, Turkey",
+    "city": "Ulus / Beşiktaş/İstanbul",
+    "country": "Turkey",
+    "lat": 41.06409780000001,
+    "lng": 29.0332312,
+    "note": "",
+    "website": "",
+    "id": "1325"
+  },
+  {
+    "name": "Vogue Restaurant & Bar",
+    "category": "Bar",
+    "tags": [
+      "Coolview",
+      "To Try"
+    ],
+    "address": "Akaretler Spor Cad. No:92 BJK Plaza A Blok K:1 Beşiktaş, 34357, Turkey",
+    "city": "",
+    "country": "Turkey",
+    "lat": 41.0427966,
+    "lng": 29.0015003,
+    "note": "Nice for sunset",
+    "website": "",
+    "id": "1326"
+  },
+  {
+    "name": "Mikla",
+    "category": "Restaurant",
+    "tags": [
+      "Classy",
+      "Coolview",
+      "Delizioso",
+      "To Try"
+    ],
+    "address": "The Marmara Pera, Meşrutiyet Cd No:15, 34430 Beyoğlu/İstanbul, Turkey",
+    "city": "Beyoğlu/İstanbul",
+    "country": "Turkey",
+    "lat": 41.0310369,
+    "lng": 28.9741962,
+    "note": "",
+    "website": "",
+    "id": "1327"
+  },
+  {
+    "name": "Lahmacun & Pide Salonu",
+    "category": "Pizza",
+    "tags": [
+      "Pizza",
+      "Suggested, not tested",
+      "To Try"
+    ],
+    "address": "Çukur, Tarlabaşı Bulvarı, Beyoğlu/İstanbul, Türkiye",
+    "city": "Beyoğlu/İstanbul",
+    "country": "Türkiye",
+    "lat": 41.0364852,
+    "lng": 28.9798791,
+    "note": "",
+    "website": "",
+    "id": "1328"
+  },
+  {
+    "name": "Karaköy Güllüoğlu",
+    "category": "Bakery",
+    "tags": [
+      "Traditional",
+      "To Try"
+    ],
+    "address": "Çukur, Kılıçali Paşa, Meclis-i Mebusan Caddesi, Beyoğlu/İstanbul, Türkiye",
+    "city": "Beyoğlu/İstanbul",
+    "country": "Türkiye",
+    "lat": 41.0283783,
+    "lng": 28.9849852,
+    "note": "Baklava",
+    "website": "",
+    "id": "1329"
+  },
+  {
+    "name": "Karaköy Lokantası",
+    "category": "Restaurant",
+    "tags": [
+      "Fish",
+      "To Try"
+    ],
+    "address": "Kemankeş Karamustafa Paşa Mh., Kemankeş Cd No:37/A, İstanbul, Turkey",
+    "city": "İstanbul",
+    "country": "Turkey",
+    "lat": 41.0234822,
+    "lng": 28.9783266,
+    "note": "",
+    "website": "",
+    "id": "1330"
+  },
+  {
+    "name": "İskele Restaurant",
+    "category": "Restaurant",
+    "tags": [
+      "Fish",
+      "To Try"
+    ],
+    "address": "Beylerbeyi Mahallesi, Beylerbeyi İskele Cd. 9/A, 34676 Üsküdar/İstanbul, Turkey",
+    "city": "Üsküdar/İstanbul",
+    "country": "Turkey",
+    "lat": 41.0447686,
+    "lng": 29.0450355,
+    "note": "",
+    "website": "",
+    "id": "1331"
+  },
+  {
+    "name": "Karaköy Balık Dürüm",
+    "category": "Supermarket",
+    "tags": [
+      "Fish",
+      "To Try"
+    ],
+    "address": "Necatibey Cd. 71B, 34425 Beyoğlu Istanbul, Türkiye",
+    "city": "Beyoğlu Istanbul",
+    "country": "Türkiye",
+    "lat": 41.02455,
+    "lng": 28.97833,
+    "note": "",
+    "website": "",
+    "id": "1332"
+  },
+  {
+    "name": "Zıpkın Arnavutköy",
+    "category": "Restaurant",
+    "tags": [
+      "Fish",
+      "To Try"
+    ],
+    "address": "Arnavutköy, Arnavutköy Cad. No:60, 34345 Beşiktaş/İstanbul, Turkey",
+    "city": "Beşiktaş/İstanbul",
+    "country": "Turkey",
+    "lat": 41.0674449,
+    "lng": 29.0441032,
+    "note": "",
+    "website": "",
+    "id": "1333"
+  },
+  {
+    "name": "21 Cafe",
+    "category": "Restaurant",
+    "tags": [
+      "Suggested, not tested",
+      "To Try",
+      "To Try"
+    ],
+    "address": "Coskun Sk. 2/1A, 34433 Beyoğlu Istanbul, Türkiye",
+    "city": "Beyoğlu Istanbul",
+    "country": "Türkiye",
+    "lat": 41.08209,
+    "lng": 28.98917,
+    "note": "",
+    "website": "",
+    "id": "1334"
+  },
+  {
+    "name": "Hamdi Restaurant - Eminönü",
+    "category": "Restaurant",
+    "tags": [
+      "Kebab",
+      "To Try"
+    ],
+    "address": "Kalçin Sk. No:17, Turkey",
+    "city": "Kalçin Sk. No:17",
+    "country": "Turkey",
+    "lat": 41.017173,
+    "lng": 28.969859,
+    "note": "",
+    "website": "",
+    "id": "1335"
+  },
+  {
+    "name": "Suma Han",
+    "category": "Lodging",
+    "tags": [
+      "Suggested, not tested",
+      "To Try"
+    ],
+    "address": "Arap Cami Mahallesi, 34420 Beyoğlu/İstanbul, Turkey",
+    "city": "Beyoğlu/İstanbul",
+    "country": "Turkey",
+    "lat": 41.025027,
+    "lng": 28.971612,
+    "note": "On the Asian side but they offer boat service to the European side upon demand. It takes about 10 mins but may be hard to come back at night",
+    "website": "",
+    "id": "1336"
+  },
+  {
+    "name": "Point Hotel Barbaros",
+    "category": "Lodging",
+    "tags": [
+      "Suggested, not tested",
+      "Valueformoney",
+      "To Try"
+    ],
+    "address": "Esentepe Mahallesi, Yıldız Posta Cd. No:29, 34394 Şişli/İstanbul, Turkey",
+    "city": "Şişli/İstanbul",
+    "country": "Turkey",
+    "lat": 41.0642299,
+    "lng": 29.0106333,
+    "note": "",
+    "website": "",
+    "id": "1337"
+  },
+  {
+    "name": "Swiss Hotel Bosphorus SPA & Wellness Center",
+    "category": "Lodging",
+    "tags": [
+      "Coolview",
+      "Suggested, not tested",
+      "To Try"
+    ],
+    "address": "Acisu Sk. 19, 34357 Beşiktaş Istanbul, Türkiye",
+    "city": "Beşiktaş Istanbul",
+    "country": "Türkiye",
+    "lat": 41.04146957397461,
+    "lng": 28.997081756591797,
+    "note": "",
+    "website": "",
+    "id": "1338"
+  },
+  {
+    "name": "Conrad Istanbul Bosphorus",
+    "category": "Lodging",
+    "tags": [
+      "Coolview",
+      "To Try",
+      "To Try"
+    ],
+    "address": "Cihannüma Mahallesi,, Saray Cad No:5, 34353 Beşiktaş/İstanbul, Turkey",
+    "city": "Beşiktaş/İstanbul",
+    "country": "Turkey",
+    "lat": 41.0469572,
+    "lng": 29.0091172,
+    "note": "",
+    "website": "",
+    "id": "1339"
+  },
+  {
+    "name": "Aux Saveurs Andernosiennes—Boulangerie-Pâtisserie",
+    "category": "Bakery",
+    "tags": [
+      "Bakery",
+      "To Try"
+    ],
+    "address": "120 Avenue de Bordeaux, 33510 Andernos-les-Bains, France",
+    "city": "Andernos-les-Bains",
+    "country": "France",
+    "lat": 44.75061798095703,
+    "lng": -1.0810236930847168,
+    "note": "",
+    "website": "",
+    "id": "1340"
+  },
+  {
+    "name": "Ha(a)ïtza",
+    "category": "Lodging",
+    "tags": [
+      "Classy",
+      "To Try"
+    ],
+    "address": "1 Avenue Louis Gaume, 33115 La Teste-de-Buch, France",
+    "city": "La Teste-de-Buch",
+    "country": "France",
+    "lat": 44.60592949999999,
+    "lng": -1.2067154,
+    "note": "",
+    "website": "",
+    "id": "1341"
+  },
+  {
+    "name": "Hôtel Restaurant La Co(o)rniche",
+    "category": "Bar",
+    "tags": [
+      "Aperitivo",
+      "Coolview",
+      "Scenic spot",
+      "To Try"
+    ],
+    "address": "46 Avenue Louis Gaume, 33115, France",
+    "city": "",
+    "country": "France",
+    "lat": 44.6015009,
+    "lng": -1.2100356,
+    "note": "",
+    "website": "",
+    "id": "1342"
+  },
+  {
+    "name": "Plage de l'Horizon",
+    "category": "Beach",
+    "tags": [
+      "CoolBeach",
+      "Scenic spot",
+      "To Try"
+    ],
+    "address": "33970 Lège-Cap-Ferret, France",
+    "city": "Lège-Cap-Ferret",
+    "country": "France",
+    "lat": 44.6549055,
+    "lng": -1.2591255,
+    "note": "",
+    "website": "",
+    "id": "1343"
+  },
+  {
+    "name": "Le Truc Vert Camping International",
+    "category": "Camping",
+    "tags": [
+      "Valueformoney",
+      "To Try"
+    ],
+    "address": "Route du Truc-Vert, 33950 Lège-Cap-Ferret, France",
+    "city": "Lège-Cap-Ferret",
+    "country": "France",
+    "lat": 44.71123850000001,
+    "lng": -1.2453317,
+    "note": "",
+    "website": "",
+    "id": "1344"
+  },
+  {
+    "name": "Plage du Truc Vert",
+    "category": "Beach",
+    "tags": [
+      "CoolBeach",
+      "To Try"
+    ],
+    "address": "33950 Lège-Cap-Ferret, France",
+    "city": "Lège-Cap-Ferret",
+    "country": "France",
+    "lat": 44.7150575,
+    "lng": -1.2503037,
+    "note": "",
+    "website": "",
+    "id": "1345"
+  },
+  {
+    "name": "Club Plage Pereire",
+    "category": "Bar",
+    "tags": [
+      "Aperitivo",
+      "Cosy",
+      "CoolBeach",
+      "Kids Friendly",
+      "Lunch",
+      "Fish",
+      "To Try"
+    ],
+    "address": "12 Boulevard de la Mer, 33120 Arcachon, France",
+    "city": "Arcachon",
+    "country": "France",
+    "lat": 44.659479,
+    "lng": -1.192844,
+    "note": "",
+    "website": "",
+    "id": "1346"
+  },
+  {
+    "name": "Marché Municipal",
+    "category": "Supermarket",
+    "tags": [
+      "Valueformoney",
+      "To Try"
+    ],
+    "address": "2 Rue des Halles, 33260 La Teste-de-Buch, France",
+    "city": "La Teste-de-Buch",
+    "country": "France",
+    "lat": 44.6326371,
+    "lng": -1.150916,
+    "note": "",
+    "website": "",
+    "id": "1347"
+  },
+  {
+    "name": "Hôtel Le B d'Arcachon by Inwood Hotels",
+    "category": "Lodging",
+    "tags": [
+      "Coolview",
+      "To Try"
+    ],
+    "address": "4 Rue du Professeur Jolyet, 33120 Arcachon, France",
+    "city": "Arcachon",
+    "country": "France",
+    "lat": 44.663526,
+    "lng": -1.163863,
+    "note": "",
+    "website": "",
+    "id": "1348"
+  },
+  {
+    "name": "Hôtel, Spa, Restaurant La-Croix-Saint-Maurice",
+    "category": "Lodging",
+    "tags": [
+      "Valueformoney",
+      "To Try"
+    ],
+    "address": "29 place de la grenette, 74450 Le Grand-Bornand, France",
+    "city": "Le Grand-Bornand",
+    "country": "France",
+    "lat": 45.9424093,
+    "lng": 6.4273535,
+    "note": "",
+    "website": "",
+    "id": "1349"
+  },
+  {
+    "name": "Le Lilas Rose",
+    "category": "Restaurant",
+    "tags": [
+      "ClassicFrench",
+      "To Try"
+    ],
+    "address": "1 Passage de l'Évêché, 74000 Annecy, France",
+    "city": "Annecy",
+    "country": "France",
+    "lat": 45.8987493,
+    "lng": 6.124920599999999,
+    "note": "",
+    "website": "",
+    "id": "1350"
+  },
+  {
+    "name": "Batteriekopf",
+    "category": "Mountain",
+    "tags": [
+      "Trek",
+      "To Try"
+    ],
+    "address": "68380 Metzeral, France",
+    "city": "Metzeral",
+    "country": "France",
+    "lat": 47.99402,
+    "lng": 6.98053,
+    "note": "",
+    "website": "",
+    "id": "1351"
+  },
+  {
+    "name": "Roche du Page",
+    "category": "Mountain",
+    "tags": [
+      "Coolview",
+      "To Try"
+    ],
+    "address": "Route des Fiés, Xonrupt-Longemer, France",
+    "city": "Xonrupt-Longemer",
+    "country": "France",
+    "lat": 48.087223052978516,
+    "lng": 6.933003902435303,
+    "note": "",
+    "website": "",
+    "id": "1352"
+  },
+  {
+    "name": "La Géromoise",
+    "category": "Restaurant",
+    "tags": [
+      "Traditional",
+      "To Try"
+    ],
+    "address": "2 Avenue Morand, 88400 Gérardmer, France",
+    "city": "Gérardmer",
+    "country": "France",
+    "lat": 48.06772549999999,
+    "lng": 6.8681531,
+    "note": "",
+    "website": "",
+    "id": "1353"
+  },
+  {
+    "name": "DOUCE NUITS",
+    "category": "Lodging",
+    "tags": [
+      "Cosy",
+      "To Try"
+    ],
+    "address": "6 Rue Porte Fermerot",
+    "city": "",
+    "country": "",
+    "lat": 47.137534,
+    "lng": 4.947642,
+    "note": "",
+    "website": "",
+    "id": "1354"
+  },
+  {
+    "name": "Domaine SERGE LAPORTE",
+    "category": "Wine",
+    "tags": [
+      "Wine producer",
+      "To Try"
+    ],
+    "address": "18300 Sancerre, France",
+    "city": "Sancerre",
+    "country": "France",
+    "lat": 47.3375792,
+    "lng": 2.7968031,
+    "note": "",
+    "website": "",
+    "id": "1355"
+  },
+  {
+    "name": "Le Guillotin",
+    "category": "Restaurant",
+    "tags": [
+      "ClassicFrench",
+      "To Try"
+    ],
+    "address": "15 Rue Jean Girard, 18000 Bourges, France",
+    "city": "Bourges",
+    "country": "France",
+    "lat": 47.0861403,
+    "lng": 2.3985656,
+    "note": "",
+    "website": "",
+    "id": "1356"
+  },
+  {
+    "name": "Les Pains de Simon",
+    "category": "Bakery",
+    "tags": [
+      "Breakfast",
+      "To Try"
+    ],
+    "address": "4 Avenue Jean Jaurès, 18000 Bourges, France",
+    "city": "Bourges",
+    "country": "France",
+    "lat": 47.08896255493164,
+    "lng": 2.3933167457580566,
+    "note": "",
+    "website": "",
+    "id": "1357"
+  },
+  {
+    "name": "Biscuiterie Saint-Guénolé",
+    "category": "Supermarket",
+    "tags": [
+      "Breakfast",
+      "To Try"
+    ],
+    "address": "50 Rue du Croisic, 44740 Batz-sur-Mer, France",
+    "city": "Batz-sur-Mer",
+    "country": "France",
+    "lat": 47.27942569999999,
+    "lng": -2.4847931,
+    "note": "",
+    "website": "",
+    "id": "1358"
+  },
+  {
+    "name": "Plage de Port Lorec",
+    "category": "Beach",
+    "tags": [
+      "CoolBeach",
+      "To Try"
+    ],
+    "address": "608–772 Avenue Louis Clément, 44420 Piriac-sur-Mer, France",
+    "city": "Piriac-sur-Mer",
+    "country": "France",
+    "lat": 47.36836599999999,
+    "lng": -2.548483,
+    "note": "",
+    "website": "",
+    "id": "1359"
+  },
+  {
+    "name": "Aître Saint-Maclou",
+    "category": "Museum",
+    "tags": [
+      "Sight",
+      "To Try"
+    ],
+    "address": "186 Rue Martainville, 76000 Rouen, France",
+    "city": "Rouen",
+    "country": "France",
+    "lat": 49.4398894,
+    "lng": 1.099475,
+    "note": "",
+    "website": "",
+    "id": "1360"
+  },
+  {
+    "name": "Ô Bistrot Chic",
+    "category": "Restaurant",
+    "tags": [
+      "ClassicFrench",
+      "To Try"
+    ],
+    "address": "62 Rue du Connétable, 60500 Chantilly, France",
+    "city": "Chantilly",
+    "country": "France",
+    "lat": 49.19452039999999,
+    "lng": 2.4746616,
+    "note": "",
+    "website": "",
+    "id": "1361"
+  },
+  {
+    "name": "La table du St Hubert",
+    "category": "Restaurant",
+    "tags": [
+      "Valueformoney",
+      "To Try"
+    ],
+    "address": "Rue de Gournay 60110 Lormaison France",
+    "city": "",
+    "country": "",
+    "lat": 49.25691,
+    "lng": 2.10537,
+    "note": "",
+    "website": "",
+    "id": "1362"
+  },
+  {
+    "name": "Huisbrouwerij De Halve Maan",
+    "category": "Beer",
+    "tags": [
+      "Lunch",
+      "Traditional",
+      "To Try"
+    ],
+    "address": "Walplein 26, 8000 Brugge, Belgium",
+    "city": "Brugge",
+    "country": "Belgium",
+    "lat": 51.2024473,
+    "lng": 3.224177999999999,
+    "note": "",
+    "website": "",
+    "id": "1363"
+  },
+  {
+    "name": "Estaminet du Welsh",
+    "category": "Restaurant",
+    "tags": [
+      "ClassicFrench",
+      "To Try"
+    ],
+    "address": "45 Rue de Gand, 59800 Lille, France",
+    "city": "Lille",
+    "country": "France",
+    "lat": 50.6427039,
+    "lng": 3.0664521,
+    "note": "",
+    "website": "",
+    "id": "1364"
+  },
+  {
+    "name": "Falaise d'Aval",
+    "category": "Mountain",
+    "tags": [
+      "Scenic spot",
+      "To Try"
+    ],
+    "address": "Étretat, France",
+    "city": "Étretat",
+    "country": "France",
+    "lat": 49.7072999,
+    "lng": 0.1935822,
+    "note": "",
+    "website": "",
+    "id": "1365"
+  },
+  {
+    "name": "Plage d'Antifer",
+    "category": "Beach",
+    "tags": [
+      "CoolBeach",
+      "To Try"
+    ],
+    "address": "Unnamed Road, 76790 Le Tilleul, France",
+    "city": "Le Tilleul",
+    "country": "France",
+    "lat": 49.6959276,
+    "lng": 0.1799765,
+    "note": "",
+    "website": "",
+    "id": "1366"
+  },
+  {
+    "name": "Phare d'Antifer",
+    "category": "Museum",
+    "tags": [
+      "Trek",
+      "Scenic spot",
+      "To Try",
+      "To Try"
+    ],
+    "address": "Unnamed Rd, La Poterie-Cap-d'Antifer, 76280 Criquetot-l'Esneval, France",
+    "city": "Criquetot-l'Esneval",
+    "country": "France",
+    "lat": 49.6834709,
+    "lng": 0.1654092,
+    "note": "",
+    "website": "",
+    "id": "1367"
+  },
+  {
+    "name": "Au Pied des Marais",
+    "category": "Restaurant",
+    "tags": [
+      "Fish",
+      "To Try"
+    ],
+    "address": "26 Avenue du Président René Coty, 14390 Varaville, France",
+    "city": "Varaville",
+    "country": "France",
+    "lat": 49.2849033,
+    "lng": -0.1447907,
+    "note": "",
+    "website": "",
+    "id": "1368"
+  },
+  {
+    "name": "Thalassotherapy Thalazur",
+    "category": "Lodging",
+    "tags": [
+      "Well-being",
+      "To Try"
+    ],
+    "address": "44 Avenue Charles de Gaulle, 14390 Cabourg, France",
+    "city": "Cabourg",
+    "country": "France",
+    "lat": 49.28957119999999,
+    "lng": -0.1314276,
+    "note": "",
+    "website": "",
+    "id": "1369"
+  },
+  {
+    "name": "The WestPort Inn",
+    "category": "Bar",
+    "tags": [
+      "Bar",
+      "To Try"
+    ],
+    "address": "2 Place Polig Montjarret, 56100 Lorient, France",
+    "city": "Lorient",
+    "country": "France",
+    "lat": 47.746638,
+    "lng": -3.358385,
+    "note": "",
+    "website": "",
+    "id": "1370"
+  },
+  {
+    "name": "Plage de Couny",
+    "category": "Beach",
+    "tags": [
+      "CoolBeach",
+      "To Try"
+    ],
+    "address": "Île de Ré, 17590 Saint-Clément-des-Baleines, France",
+    "city": "Saint-Clément-des-Baleines",
+    "country": "France",
+    "lat": 46.247703552246094,
+    "lng": -1.5300551652908325,
+    "note": "",
+    "website": "",
+    "id": "1371"
+  },
+  {
+    "name": "Saint Clement des Baleines",
+    "category": "Civic",
+    "tags": [
+      "Nice village",
+      "To Try",
+      "To Try"
+    ],
+    "address": "103 Rue de l'École, Le Chabot, 17590 Saint-Clément-des-Baleines, France",
+    "city": "Saint-Clément-des-Baleines",
+    "country": "France",
+    "lat": 46.22914123535156,
+    "lng": -1.5395817756652832,
+    "note": "",
+    "website": "",
+    "id": "1372"
+  },
+  {
+    "name": "La Baleine Bleue",
+    "category": "Restaurant",
+    "tags": [
+      "ClassicFrench",
+      "To Try"
+    ],
+    "address": "4 Quai Launay Razilly, 17410 Saint-Martin-de-Ré, France",
+    "city": "Saint-Martin-de-Ré",
+    "country": "France",
+    "lat": 46.2053455,
+    "lng": -1.3685588,
+    "note": "",
+    "website": "",
+    "id": "1373"
+  },
+  {
+    "name": "Le Clos Saint-Martin Hôtel & Spa",
+    "category": "Lodging",
+    "tags": [
+      "Classy",
+      "Well-being",
+      "To Try",
+      "To Try"
+    ],
+    "address": "87 Cours Pasteur, 17410 Saint-Martin-de-Ré, France",
+    "city": "Saint-Martin-de-Ré",
+    "country": "France",
+    "lat": 46.20397,
+    "lng": -1.3724133,
+    "note": "",
+    "website": "",
+    "id": "1374"
+  },
+  {
+    "name": "Café Cathedral",
+    "category": "Restaurant",
+    "tags": [
+      "Traditional",
+      "To Try"
+    ],
+    "address": "Dronningens gate 27, 0154 Oslo, Norway",
+    "city": "Oslo",
+    "country": "Norway",
+    "lat": 59.9118463,
+    "lng": 10.7473205,
+    "note": "",
+    "website": "",
+    "id": "1375"
+  },
+  {
+    "name": "Oechsle Wein- und Fischhaus",
+    "category": "Restaurant",
+    "tags": [
+      "Fish",
+      "To Try"
+    ],
+    "address": "Palaststraße 5-7, 54290 Trier, Germany",
+    "city": "Trier",
+    "country": "Germany",
+    "lat": 49.7540932,
+    "lng": 6.6373579,
+    "note": "",
+    "website": "",
+    "id": "1376"
+  },
+  {
+    "name": "Maria-Laach Parking Lot",
+    "category": "Worship Christian",
+    "tags": [
+      "Sight",
+      "To Try"
+    ],
+    "address": "Glees, Germany",
+    "city": "Glees",
+    "country": "Germany",
+    "lat": 50.40365,
+    "lng": 7.25425,
+    "note": "",
+    "website": "",
+    "id": "1377"
+  },
+  {
+    "name": "Pension Seeblick",
+    "category": "Restaurant",
+    "tags": [
+      "Coolview",
+      "To Try"
+    ],
+    "address": "Allgäustraße 126",
+    "city": "",
+    "country": "",
+    "lat": 47.5592537,
+    "lng": 9.7625327,
+    "note": "",
+    "website": "",
+    "id": "1378"
+  },
+  {
+    "name": "Café Hummel",
+    "category": "Cafe",
+    "tags": [
+      "Breakfast",
+      "To Try"
+    ],
+    "address": "Bahnhofstraße 22 86609 Donauwörth Germany",
+    "city": "",
+    "country": "",
+    "lat": 48.71567,
+    "lng": 10.77369,
+    "note": "",
+    "website": "",
+    "id": "1379"
+  },
+  {
+    "name": "Airbräu",
+    "category": "Beer",
+    "tags": [
+      "ClassicGerman",
+      "To Try"
+    ],
+    "address": "München Airport Center - Ebene 03, 85356 München-Flughafen, Germany",
+    "city": "München-Flughafen",
+    "country": "Germany",
+    "lat": 48.3540889,
+    "lng": 11.7873402,
+    "note": "",
+    "website": "",
+    "id": "1380"
+  },
+  {
+    "name": "Augustiner Bürgerheim",
+    "category": "Beer",
+    "tags": [
+      "ClassicGerman",
+      "To Try"
+    ],
+    "address": "Bergmannstraße 33, 80339 München, Allemagne",
+    "city": "München",
+    "country": "Allemagne",
+    "lat": 48.13599299999999,
+    "lng": 11.537436,
+    "note": "",
+    "website": "",
+    "id": "1381"
+  },
+  {
+    "name": "Docks Club",
+    "category": "Bar",
+    "tags": [
+      "Concert hall",
+      "To Try"
+    ],
+    "address": "Spielbudenpl. 19, 20359 Hamburg, Germany",
+    "city": "Hamburg",
+    "country": "Germany",
+    "lat": 53.5492917,
+    "lng": 9.964537199999999,
+    "note": "",
+    "website": "",
+    "id": "1382"
+  },
+  {
+    "name": "The Cloud One Hotel Hamburg - Kontorhaus",
+    "category": "Lodging",
+    "tags": [
+      "Valueformoney",
+      "To Try"
+    ],
+    "address": "Willy-Brandt-Straße 20, 20457 Hamburg, Deutschland",
+    "city": "Hamburg",
+    "country": "Deutschland",
+    "lat": 53.547966413959344,
+    "lng": 9.999507924568562,
+    "note": "",
+    "website": "",
+    "id": "1383"
+  },
+  {
+    "name": "Elbphilharmonie",
+    "category": "Music",
+    "tags": [
+      "Concert hall",
+      "To Try"
+    ],
+    "address": "Am Kaiserkai, 20457 Hamburg, Germany",
+    "city": "Hamburg",
+    "country": "Germany",
+    "lat": 53.54133059999999,
+    "lng": 9.9841274,
+    "note": "",
+    "website": "",
+    "id": "1384"
+  },
+  {
+    "name": "heimat Restaurant",
+    "category": "Restaurant",
+    "tags": [
+      "Cool",
+      "To Try"
+    ],
+    "address": "Überseeallee 5, 25hours Hotel HafenCity, 20457 Hamburg, Germany",
+    "city": "Hamburg",
+    "country": "Germany",
+    "lat": 53.54143739999999,
+    "lng": 9.999356299999997,
+    "note": "",
+    "website": "",
+    "id": "1385"
+  },
+  {
+    "name": "Aspria Hamburg Uhlenhorst",
+    "category": "Lodging",
+    "tags": [
+      "Cool",
+      "To Try"
+    ],
+    "address": "Hofweg 40, 22085 Hamburg, Germany",
+    "city": "Hamburg",
+    "country": "Germany",
+    "lat": 53.57129759999999,
+    "lng": 10.0176601,
+    "note": "",
+    "website": "",
+    "id": "1386"
+  },
+  {
+    "name": "Restaurant Messerschmiede",
+    "category": "Restaurant",
+    "tags": [
+      "Traditional",
+      "To Try"
+    ],
+    "address": "Hagedorn 2, 21682 Stade, Allemagne",
+    "city": "Stade",
+    "country": "Allemagne",
+    "lat": 53.60068099999999,
+    "lng": 9.4771719,
+    "note": "",
+    "website": "",
+    "id": "1387"
   }
 ]
