@@ -21847,7 +21847,7 @@
   },
   {
     "name": "Lockheed A-12 \"Trainer\"",
-    "category": "Airport",
+    "category": "Sight",
     "tags": [
       "MustSee"
     ],
@@ -21878,7 +21878,7 @@
   },
   {
     "name": "CNN Studio Tours",
-    "category": "Movies",
+    "category": "Spectacle",
     "tags": [
       "Sight"
     ],
@@ -22577,7 +22577,7 @@
   },
   {
     "name": "Bounce",
-    "category": "Amusement",
+    "category": "Spectacle",
     "tags": [
       "Cool"
     ],
@@ -22669,7 +22669,7 @@
   },
   {
     "name": "Ruisseau des Sanciots",
-    "category": "Nature & Outdoors",
+    "category": "Park",
     "tags": [],
     "address": "Ruisseau des Sanciots, 03460, France",
     "city": "",
@@ -22786,7 +22786,7 @@
   },
   {
     "name": "Bataclan",
-    "category": "Concert Hall",
+    "category": "Music",
     "tags": [],
     "address": "50 Boulevard Voltaire, 75011 Paris, France",
     "city": "Paris",
@@ -22864,7 +22864,7 @@
   },
   {
     "name": "Amsterdam RAI",
-    "category": "Seight",
+    "category": "Sight",
     "tags": [],
     "address": "Europaplein 24, 1078 GZ Amsterdam, Nederland",
     "city": "GZ Amsterdam",
@@ -22890,7 +22890,7 @@
   },
   {
     "name": "Square Maurice Gardette",
-    "category": "Garden",
+    "category": "Park",
     "tags": [],
     "address": "2 Rue du Général Blaise, 75011 Paris, France",
     "city": "Paris",
@@ -22903,7 +22903,7 @@
   },
   {
     "name": "Five Guys",
-    "category": "Burger",
+    "category": "Fastfood",
     "tags": [],
     "address": "49-51 Av. des Champs-Élysées, 75008 Paris, France",
     "city": "Paris",
@@ -23020,7 +23020,7 @@
   },
   {
     "name": "Excel Roma Montemario",
-    "category": "Coolview",
+    "category": "Generic",
     "tags": [],
     "address": "Via Alessandria, 110, 00198 Roma RM, Italia",
     "city": "Roma",
@@ -23059,7 +23059,7 @@
   },
   {
     "name": "Le Taquin",
-    "category": "Concert Hall",
+    "category": "Music",
     "tags": [],
     "address": "23 Rue des Amidonniers, 31000 Toulouse, France",
     "city": "Toulouse",
@@ -23072,7 +23072,7 @@
   },
   {
     "name": "La Halle",
-    "category": "Nice village",
+    "category": "Generic",
     "tags": [],
     "address": "Place de la Mairie, 31540 Saint-Félix-Lauragais, France",
     "city": "Saint-Félix-Lauragais",
@@ -23176,7 +23176,7 @@
   },
   {
     "name": "Stabilimento balneare bagni dea Fortuna",
-    "category": "Lunch",
+    "category": "Restaurant",
     "tags": [],
     "address": "Via, Riviera Vittorio Mallozzi, Snc, 00042 Anzio RM, Italia",
     "city": "Anzio",
@@ -23280,7 +23280,7 @@
   },
   {
     "name": "Élysée Montmartre",
-    "category": "Concert Hall",
+    "category": "Music",
     "tags": [],
     "address": "72 Boulevard de Rochechouart, 75018 Paris, France",
     "city": "Paris",
@@ -23293,7 +23293,7 @@
   },
   {
     "name": "Jardin Villemin",
-    "category": "Garden",
+    "category": "Park",
     "tags": [],
     "address": "14 Rue des Récollets, 75010 Paris, France",
     "city": "Paris",
@@ -23332,7 +23332,7 @@
   },
   {
     "name": "Port de l'Arsenal Garden",
-    "category": "Garden",
+    "category": "Park",
     "tags": [],
     "address": "53 Boulevard de la Bastille, 75012 Paris, France",
     "city": "Paris",
@@ -23553,7 +23553,7 @@
   },
   {
     "name": "STATION F",
-    "category": "Personal Markers",
+    "category": "Civic",
     "tags": [],
     "address": "5 Parvis Alan Turing, 75013 Paris, France",
     "city": "Paris",
@@ -23566,7 +23566,7 @@
   },
   {
     "name": "Théâtre du Rond-Point",
-    "category": "Theatre",
+    "category": "Spectacle",
     "tags": [],
     "address": "2Bis Avenue Franklin Delano Roosevelt, 75008 Paris, France",
     "city": "Paris",
@@ -23605,7 +23605,7 @@
   },
   {
     "name": "La Pâtisserie Cyril Lignac - Paul Bert",
-    "category": "Patisserie",
+    "category": "Bakery",
     "tags": [],
     "address": "24 Rue Paul Bert, 75011 Paris, France",
     "city": "Paris",
@@ -23683,7 +23683,7 @@
   },
   {
     "name": "Antica Pasticceria Pagani Parma",
-    "category": "Breakfast",
+    "category": "Cafe",
     "tags": [],
     "address": "Via XX Marzo, 4/A, 43121 Parma PR, Italia",
     "city": "Parma",
@@ -23696,7 +23696,7 @@
   },
   {
     "name": "Sunborn London",
-    "category": "Lodging, Cool",
+    "category": "Lodging",
     "tags": [],
     "address": "Royal Victoria Dock, Western Gateway, Royal Docks, London, E16 1AA, UK",
     "city": "E16 1AA",
@@ -23748,7 +23748,7 @@
   },
   {
     "name": "Piazza Dei Cavalieri Di Malta",
-    "category": "",
+    "category": "Generic",
     "tags": [],
     "address": "Istituto Nazionale di Studi Romani, Piazza dei Cavalieri di Malta, 2, 00153 Roma RM, Italia",
     "city": "Roma",
@@ -23800,7 +23800,7 @@
   },
   {
     "name": "Ombre Rosse",
-    "category": "Value for money",
+    "category": "Generic",
     "tags": [],
     "address": "Piazza di S. Egidio, 12, 00153 Roma RM, Italia",
     "city": "Roma",
@@ -23826,7 +23826,7 @@
   },
   {
     "name": "Le Servan",
-    "category": "",
+    "category": "Generic",
     "tags": [],
     "address": "32 Rue Saint-Maur, 75011 Paris, France",
     "city": "Paris",
@@ -23852,7 +23852,7 @@
   },
   {
     "name": "Le Square Gardette",
-    "category": "Garden",
+    "category": "Park",
     "tags": [],
     "address": "24 Rue Saint-Ambroise, 75011 Paris, France",
     "city": "Paris",
@@ -23904,7 +23904,7 @@
   },
   {
     "name": "Le Cépage Montmartrois",
-    "category": "Restaurant, Value for money",
+    "category": "Restaurant",
     "tags": [],
     "address": "65 Rue Caulaincourt, 75018 Paris, France",
     "city": "Paris",
@@ -23956,7 +23956,7 @@
   },
   {
     "name": "Beaune",
-    "category": "Nice village",
+    "category": "Generic",
     "tags": [],
     "address": "21200 Beaune, France",
     "city": "Beaune",
@@ -23969,7 +23969,7 @@
   },
   {
     "name": "Nuits-Saint-Georges",
-    "category": "Nice village",
+    "category": "Generic",
     "tags": [],
     "address": "21700 Nuits-Saint-Georges, France",
     "city": "Nuits-Saint-Georges",
@@ -23982,7 +23982,7 @@
   },
   {
     "name": "Karma Tibetan",
-    "category": "Restaurant, Asian",
+    "category": "Restaurant",
     "tags": [],
     "address": "24 Rue Traversière, 75012 Paris, France",
     "city": "Paris",
@@ -24034,7 +24034,7 @@
   },
   {
     "name": "Padangbai Cafe",
-    "category": "Restaurant, Traditional",
+    "category": "Restaurant",
     "tags": [],
     "address": "Padangbai, Kec. Manggis, Kabupaten Karangasem, Bali 80871, Indonesia",
     "city": "",
@@ -24060,7 +24060,7 @@
   },
   {
     "name": "Escape Bajo (Brew, Bite, Bed)",
-    "category": "Lodging, Value for money",
+    "category": "Lodging",
     "tags": [],
     "address": "Jalan Binongko, Labuan Bajo, Komodo, Labuan Bajo, Komodo, Kabupaten Manggarai Barat, Nusa Tenggara Tim., Indonesia",
     "city": "Nusa Tenggara Tim.",
@@ -24086,7 +24086,7 @@
   },
   {
     "name": "Las Ventas de Diego de Velazquez",
-    "category": "Restaurant, Value for money",
+    "category": "Restaurant",
     "tags": [],
     "address": "Calle Ramón Rubial, 6, 28905 Getafe, Madrid, España",
     "city": "Madrid",
@@ -24099,7 +24099,7 @@
   },
   {
     "name": "Club Nautico l'Approdo",
-    "category": "Bar, Aperitivo, Coolview",
+    "category": "Bar",
     "tags": [],
     "address": "Via dei Lillà, 69, 00042 Anzio RM, Italia",
     "city": "Anzio",
@@ -24138,7 +24138,7 @@
   },
   {
     "name": "La Vache et le Cuisinier",
-    "category": "Restaurant, Classic French",
+    "category": "Restaurant",
     "tags": [],
     "address": "18 Rue des Trois Frères, 75018 Paris, France",
     "city": "Paris",
@@ -24151,7 +24151,7 @@
   },
   {
     "name": "Mori Venice Bar",
-    "category": "Restaurant, Modern Italian",
+    "category": "Restaurant",
     "tags": [],
     "address": "27 Rue Vivienne, 75002 Paris, France",
     "city": "Paris",
@@ -24177,7 +24177,7 @@
   },
   {
     "name": "L'Alimentation Générale",
-    "category": "Live Music Venue",
+    "category": "Music",
     "tags": [],
     "address": "64 Rue Jean-Pierre Timbaud, 75011 Paris, France",
     "city": "Paris",
@@ -24190,7 +24190,7 @@
   },
   {
     "name": "Auberge du Mérou",
-    "category": "Restaurant, Coolview",
+    "category": "Restaurant",
     "tags": [],
     "address": "3 Chemin du Port, 13740 Le Rove, France",
     "city": "Le Rove",
@@ -24203,7 +24203,7 @@
   },
   {
     "name": "La Bellevilloise",
-    "category": "Live Music Venue",
+    "category": "Music",
     "tags": [],
     "address": "19-21 Rue Boyer, 75020 Paris, France",
     "city": "Paris",
@@ -24216,7 +24216,7 @@
   },
   {
     "name": "La Marie Antoinette",
-    "category": "Restaurant, Fish",
+    "category": "Restaurant",
     "tags": [],
     "address": "12 Rue Alphonse Karr, 76790 Étretat, France",
     "city": "Étretat",
@@ -24255,7 +24255,7 @@
   },
   {
     "name": "Assouline Paris",
-    "category": "Book shop",
+    "category": "Shopping",
     "tags": [],
     "address": "35 Rue Bonaparte, 75006 Paris, France",
     "city": "Paris",
@@ -24307,7 +24307,7 @@
   },
   {
     "name": "L'Arôme Paris",
-    "category": "Restaurant, Modern French",
+    "category": "Restaurant",
     "tags": [],
     "address": "3 Rue Saint-Philippe du Roule, 75008 Paris, France",
     "city": "Paris",
@@ -24320,7 +24320,7 @@
   },
   {
     "name": "Warung BintangBali",
-    "category": "Restaurant, Traditional",
+    "category": "Restaurant",
     "tags": [],
     "address": "Jl. Tirta Tawar No.158, Ubud, Kecamatan Ubud, Kabupaten Gianyar, Bali 80571, Indonesia",
     "city": "",
@@ -24346,7 +24346,7 @@
   },
   {
     "name": "Kiyomizu",
-    "category": "Restaurant, Asian",
+    "category": "Restaurant",
     "tags": [],
     "address": "4 Rue Saint-Philippe du Roule, 75008 Paris, France",
     "city": "Paris",
@@ -24359,7 +24359,7 @@
   },
   {
     "name": "Ossek Garden",
-    "category": "Restaurant, Asian",
+    "category": "Restaurant",
     "tags": [],
     "address": "14 Rue Rampon, 75011 Paris, France",
     "city": "Paris",
@@ -24398,7 +24398,7 @@
   },
   {
     "name": "Restaurant Maison St Maur",
-    "category": "Restaurant, Suggested Not Tested",
+    "category": "Restaurant",
     "tags": [],
     "address": "3 Rue Saint-Hubert, 75011 Paris",
     "city": "Rue Saint-Hubert",
@@ -24411,7 +24411,7 @@
   },
   {
     "name": "Villa Torlonia",
-    "category": "Garden",
+    "category": "Park",
     "tags": [],
     "address": "Via Nomentana, 70, 00161 Roma RM, Italia",
     "city": "Roma",
@@ -24424,7 +24424,7 @@
   },
   {
     "name": "Il Catanese",
-    "category": "Bar, Aperitivo",
+    "category": "Bar",
     "tags": [],
     "address": "Via Lucrezio Caro, 14, 00193 Roma RM, Italia",
     "city": "Roma",
@@ -24437,7 +24437,7 @@
   },
   {
     "name": "Palazzo Berardi",
-    "category": "Rooftop, Aperitivo",
+    "category": "Bar",
     "tags": [],
     "address": "Via del Gesù, 62, 00186 Roma RM, Italia",
     "city": "Roma",
@@ -24450,7 +24450,7 @@
   },
   {
     "name": "Villa Borghese",
-    "category": "Garden",
+    "category": "Park",
     "tags": [],
     "address": "Piazzale Napoleone I, 00197 Roma RM, Italia",
     "city": "Roma",
@@ -24463,7 +24463,7 @@
   },
   {
     "name": "Pantha Rei",
-    "category": "Restaurant, Italian",
+    "category": "Restaurant",
     "tags": [],
     "address": "Via della Minerva, 19, 00186 Roma RM, Italia",
     "city": "Roma",
@@ -24476,7 +24476,7 @@
   },
   {
     "name": "Dirty Martini Birmingham",
-    "category": "Bar, Cocktails",
+    "category": "Bar",
     "tags": [],
     "address": "7 Bennetts Hill, Birmingham, B2 5ST, UK",
     "city": "B2 5ST",
@@ -24502,7 +24502,7 @@
   },
   {
     "name": "National Trust - Bibury",
-    "category": "Nice Village",
+    "category": "Generic",
     "tags": [],
     "address": "Bibury, Cirencester, GL7 5NP, UK",
     "city": "GL7 5NP",
@@ -24593,7 +24593,7 @@
   },
   {
     "name": "Lou Luberon",
-    "category": "Restaurant, Classic French",
+    "category": "Restaurant",
     "tags": [],
     "address": "189 Avenue Aristide Briand, 84440 Robion, France",
     "city": "Robion",
@@ -24606,7 +24606,7 @@
   },
   {
     "name": "Gordes",
-    "category": "Nice Village",
+    "category": "Generic",
     "tags": [],
     "address": "84220 Gordes, France",
     "city": "Gordes",
@@ -24619,7 +24619,7 @@
   },
   {
     "name": "Chez Gladines Batignolles",
-    "category": "Basque, Value for money",
+    "category": "Restaurant",
     "tags": [],
     "address": "74 Boulevard des Batignolles, 75017 Paris, France",
     "city": "Paris",
@@ -24645,7 +24645,7 @@
   },
   {
     "name": "Cafe Francoeur",
-    "category": "Bistrot",
+    "category": "Restaurant",
     "tags": [],
     "address": "129 Rue Caulaincourt, 75018 Paris, France",
     "city": "Paris",
@@ -24684,7 +24684,7 @@
   },
   {
     "name": "The Peninsula Paris",
-    "category": "Lodging, Classy",
+    "category": "Lodging",
     "tags": [],
     "address": "19 Avenue Kléber, 75116 Paris, France",
     "city": "Paris",
@@ -24697,7 +24697,7 @@
   },
   {
     "name": "Restaurant Le Bercail",
-    "category": "Restaurant, Terrace",
+    "category": "Restaurant",
     "tags": [],
     "address": "162 Chemin des Canotiers, 84000 Avignon, France",
     "city": "Avignon",
@@ -24762,7 +24762,7 @@
   },
   {
     "name": "Gazebo Beach Hotel",
-    "category": "Value for money",
+    "category": "Generic",
     "tags": [],
     "address": "Jl. Danau Tamblingan No.35-37, Sanur, Kec. Denpasar Sel., Kota Denpasar, Bali 80228, Indonesia",
     "city": "",
@@ -24775,7 +24775,7 @@
   },
   {
     "name": "LE BATEAU PHARE",
-    "category": "Live Music Venue",
+    "category": "Music",
     "tags": [],
     "address": "Port de la gare, face, 11 Quai François Mauriac, 75013 Paris, France",
     "city": "Paris",
@@ -24788,7 +24788,7 @@
   },
   {
     "name": "Axe and Arrow Brewing",
-    "category": "Brewery",
+    "category": "Beer",
     "tags": [],
     "address": "105 High St W, Glassboro, NJ 08028, USA",
     "city": "",
@@ -24801,7 +24801,7 @@
   },
   {
     "name": "Human Village Brewing Co.",
-    "category": "Brewery",
+    "category": "Beer",
     "tags": [],
     "address": "148 S Broadway, Pitman, NJ 08071, USA",
     "city": "",
@@ -24814,7 +24814,7 @@
   },
   {
     "name": "Harrison House Diner",
-    "category": "Restaurant, American",
+    "category": "Restaurant",
     "tags": [],
     "address": "98 N Main St, Mullica Hill, NJ 08062, USA",
     "city": "",
@@ -24827,7 +24827,7 @@
   },
   {
     "name": "Port Hueneme",
-    "category": "Cool Beach",
+    "category": "Beach",
     "tags": [],
     "address": "Port Hueneme, CA, USA",
     "city": "CA",
@@ -24840,7 +24840,7 @@
   },
   {
     "name": "The Ranch Malibu",
-    "category": "Lodging, Classy",
+    "category": "Lodging",
     "tags": [],
     "address": "12220 Cotharin Rd, Malibu, CA 90265, USA",
     "city": "",
@@ -24866,7 +24866,7 @@
   },
   {
     "name": "Ace Hotel",
-    "category": "Lodging, Rooftop",
+    "category": "Lodging",
     "tags": [],
     "address": "929 S Broadway, Los Angeles, CA 90015, USA",
     "city": "",
@@ -24879,7 +24879,7 @@
   },
   {
     "name": "El Cholo",
-    "category": "Mexican, Value for money",
+    "category": "Restaurant",
     "tags": [],
     "address": "1037 Flower St, Los Angeles, CA 90015, USA",
     "city": "",
@@ -24918,7 +24918,7 @@
   },
   {
     "name": "Hotel-Restaurant Alte Post",
-    "category": "Restaurant, Traditional",
+    "category": "Restaurant",
     "tags": [],
     "address": "Fischergasse 3, 88131 Lindau (Bodensee), Deutschland",
     "city": "Lindau (Bodensee)",
@@ -24957,7 +24957,7 @@
   },
   {
     "name": "Lo Scoglio",
-    "category": "Restaurant, Lunch",
+    "category": "Restaurant",
     "tags": [],
     "address": "Lungomare Caterattino, Km 29, 250, 04016 Sabaudia LT, Italia",
     "city": "Sabaudia",
@@ -24970,7 +24970,7 @@
   },
   {
     "name": "La Terrazza degli Artisti",
-    "category": "Café, Coolview",
+    "category": "Cafe",
     "tags": [],
     "address": "Piazzale S. Francesco D'assisi, 1, 04017 San Felice Circeo LT, Italia",
     "city": "San Felice Circeo",
@@ -24996,7 +24996,7 @@
   },
   {
     "name": "Inizio sentiero \"Le Crocette\"",
-    "category": "Trek",
+    "category": "Hiking",
     "tags": [],
     "address": "Via Acropoli, 04017 San Felice Circeo LT, Italia",
     "city": "San Felice Circeo",
@@ -25009,7 +25009,7 @@
   },
   {
     "name": "Inizio sentiero Fortino di Cretarossa-Picco di Circe",
-    "category": "Trek",
+    "category": "Hiking",
     "tags": [],
     "address": "Via Acropoli, 04017 San Felice Circeo LT, Italia",
     "city": "San Felice Circeo",
@@ -25061,7 +25061,7 @@
   },
   {
     "name": "Wigmore Hall",
-    "category": "Concert Hall",
+    "category": "Music",
     "tags": [],
     "address": "36 Wigmore St, Marylebone, London, W1U 2BP, UK",
     "city": "W1U 2BP",
@@ -25087,7 +25087,7 @@
   },
   {
     "name": "The Greyhound",
-    "category": "Proper British",
+    "category": "Generic",
     "tags": [],
     "address": "Longwater Rd, Finchampstead, RG40 3TS, UK",
     "city": "RG40 3TS",
@@ -25100,7 +25100,7 @@
   },
   {
     "name": "The Tally Ho",
-    "category": "Pub",
+    "category": "Bar",
     "tags": [],
     "address": "Fleet Hill, Eversley, Hook, RG27 0RR, UK",
     "city": "RG27 0RR",
@@ -25113,7 +25113,7 @@
   },
   {
     "name": "Lockey Farm",
-    "category": "Farm, Restaurant",
+    "category": "Restaurant",
     "tags": [],
     "address": "Sindlesham Rd, Arborfield, Arborfield Cross, Reading, RG2 9JH, UK",
     "city": "RG2 9JH",
@@ -25126,7 +25126,7 @@
   },
   {
     "name": "Regent Street Cinema",
-    "category": "Cinema",
+    "category": "Spectacle",
     "tags": [],
     "address": "307 Regent St, Marylebone, London, W1B 2HW, UK",
     "city": "W1B 2HW",
@@ -25139,7 +25139,7 @@
   },
   {
     "name": "Cambridge Theatre",
-    "category": "Theatre",
+    "category": "Spectacle",
     "tags": [],
     "address": "Earlham St, London, WC2H 9HU, UK",
     "city": "WC2H 9HU",
@@ -25178,7 +25178,7 @@
   },
   {
     "name": "The Crown Inn",
-    "category": "Pub",
+    "category": "Bar",
     "tags": [],
     "address": "9 Highcrown St, Southampton, SO17 1QE, UK",
     "city": "SO17 1QE",
@@ -25204,7 +25204,7 @@
   },
   {
     "name": "The Kings Head",
-    "category": "Pub",
+    "category": "Bar",
     "tags": [],
     "address": "2 Crouch End Hill, Crouch End, London, N8 8AA, UK",
     "city": "N8 8AA",
@@ -25243,7 +25243,7 @@
   },
   {
     "name": "Corner Bakery Cafe",
-    "category": "Bakery, Breakfast",
+    "category": "Bakery",
     "tags": [],
     "address": "Southern Building, 270 Peachtree St NW, Atlanta, GA 30303, USA",
     "city": "",
@@ -25269,7 +25269,7 @@
   },
   {
     "name": "Ye Olde Leathern Bottel",
-    "category": "Pub, Lunch",
+    "category": "Bar",
     "tags": [],
     "address": "221 Barkham Rd, Wokingham, RG41 4BY, UK",
     "city": "RG41 4BY",
@@ -25282,7 +25282,7 @@
   },
   {
     "name": "The Fighting Cocks Bar & Venue",
-    "category": "Live Music Venue",
+    "category": "Music",
     "tags": [],
     "address": "56 Old London Rd, Kingston upon Thames, KT2 6QA, UK",
     "city": "KT2 6QA",
@@ -25295,7 +25295,7 @@
   },
   {
     "name": "MotherMash",
-    "category": "Restaurant, Proper British, Value for money",
+    "category": "Restaurant",
     "tags": [],
     "address": "26 Ganton St, Soho, London, W1F 7QZ, UK",
     "city": "W1F 7QZ",
@@ -25334,7 +25334,7 @@
   },
   {
     "name": "Do et Riz",
-    "category": "Restaurant, Asian",
+    "category": "Restaurant",
     "tags": [],
     "address": "31 Rue de Cotte, 75012 Paris, France",
     "city": "Paris",
@@ -25360,7 +25360,7 @@
   },
   {
     "name": "Comédie des 3 Bornes",
-    "category": "Theatre",
+    "category": "Spectacle",
     "tags": [],
     "address": "32 Rue des Trois Bornes, 75011 Paris, France",
     "city": "Paris",
@@ -25373,7 +25373,7 @@
   },
   {
     "name": "Selcius",
-    "category": "Restaurant, Lunch",
+    "category": "Restaurant",
     "tags": [],
     "address": "43 Quai Rambaud, 69002 Lyon, France",
     "city": "Lyon",
@@ -25438,7 +25438,7 @@
   },
   {
     "name": "Happy Nouilles",
-    "category": "Restaurant, Asian",
+    "category": "Restaurant",
     "tags": [],
     "address": "95 Rue Beaubourg, 75003 Paris, France",
     "city": "Paris",
@@ -25464,7 +25464,7 @@
   },
   {
     "name": "Les Mesanges",
-    "category": "Bistrot",
+    "category": "Restaurant",
     "tags": [],
     "address": "82 Rue de la Mare, 75020 Paris, France",
     "city": "Paris",
@@ -25477,7 +25477,7 @@
   },
   {
     "name": "Restaurant eels",
-    "category": "Restaurant, Modern French",
+    "category": "Restaurant",
     "tags": [],
     "address": "27 Rue d'Hauteville, 75010 Paris, France",
     "city": "Paris",
@@ -25490,7 +25490,7 @@
   },
   {
     "name": "Burger & Fries",
-    "category": "Burger",
+    "category": "Fastfood",
     "tags": [],
     "address": "1 Boulevard de Bonne Nouvelle, 75002 Paris, France",
     "city": "Paris",
@@ -25516,7 +25516,7 @@
   },
   {
     "name": "The Oakley Court",
-    "category": "Lodging, Proper British",
+    "category": "Lodging",
     "tags": [],
     "address": "Bray, Windsor, SL4 5UR, UK",
     "city": "SL4 5UR",
@@ -25529,7 +25529,7 @@
   },
   {
     "name": "The Hand and Flowers",
-    "category": "Pub, Modern British",
+    "category": "Bar",
     "tags": [],
     "address": "126 West St, Marlow, SL7 2BP, UK",
     "city": "SL7 2BP",
@@ -25542,7 +25542,7 @@
   },
   {
     "name": "La Villette",
-    "category": "Garden",
+    "category": "Park",
     "tags": [],
     "address": "211 Avenue Jean Jaurès, 75019 Paris, France",
     "city": "Paris",
@@ -25594,7 +25594,7 @@
   },
   {
     "name": "Berthillon",
-    "category": "Ice cream",
+    "category": "Icecream",
     "tags": [],
     "address": "31 rue saint louis en l'ile, 75004 Paris, France",
     "city": "Paris",
@@ -25672,7 +25672,7 @@
   },
   {
     "name": "Adoro Cafè",
-    "category": "Café, Breakfast",
+    "category": "Cafe",
     "tags": [],
     "address": "Via di Cavana, 8, 34121 Trieste TS, Italia",
     "city": "Trieste",
@@ -25711,7 +25711,7 @@
   },
   {
     "name": "Osteria Ai Maestri Trieste",
-    "category": "Restaurant, Fish",
+    "category": "Restaurant",
     "tags": [],
     "address": "Via della Sorgente, 6, 34125 Trieste TS, Italia",
     "city": "Trieste",
@@ -25737,7 +25737,7 @@
   },
   {
     "name": "La Mouette rieuse",
-    "category": "Book shop",
+    "category": "Shopping",
     "tags": [],
     "address": "17bis Rue Pavée, 75004 Paris, France",
     "city": "Paris",
@@ -25763,7 +25763,7 @@
   },
   {
     "name": "Jardins de l'Europe",
-    "category": "Garden, Cool view",
+    "category": "Park",
     "tags": [],
     "address": "Quai Napoléon III, 74000 Annecy, France",
     "city": "Annecy",
@@ -25776,7 +25776,7 @@
   },
   {
     "name": "Ētsi",
-    "category": "Restaurant, Greek",
+    "category": "Restaurant",
     "tags": [],
     "address": "23 Rue Eugène Carrière, 75018 Paris, France",
     "city": "Paris",
@@ -25789,7 +25789,7 @@
   },
   {
     "name": "Chocolaterie Cyril Lignac",
-    "category": "Chocolate",
+    "category": "Bakery",
     "tags": [],
     "address": "25 Rue Chanzy, 75011 Paris, France",
     "city": "Paris",
@@ -25802,7 +25802,7 @@
   },
   {
     "name": "Peco Peco",
-    "category": "Restaurant, Asian",
+    "category": "Restaurant",
     "tags": [],
     "address": "47 Rue Jean-Baptiste Pigalle, 75009 Paris, France",
     "city": "Paris",
@@ -25919,7 +25919,7 @@
   },
   {
     "name": "L'Etage",
-    "category": "Live Music Venue",
+    "category": "Music",
     "tags": [],
     "address": "77 Rue du Faubourg du Temple, 75010 Paris, France",
     "city": "Paris",
@@ -25932,7 +25932,7 @@
   },
   {
     "name": "À la Bonne Bière",
-    "category": "Brasserie",
+    "category": "Restaurant",
     "tags": [],
     "address": "32 Rue du Faubourg du Temple, 75011 Paris, France",
     "city": "Paris",
@@ -25945,7 +25945,7 @@
   },
   {
     "name": "Scilicet",
-    "category": "Bar, Cocktail",
+    "category": "Bar",
     "tags": [],
     "address": "134 Voie Georges Pompidou, 75001 Paris, France",
     "city": "Paris",
@@ -25997,7 +25997,7 @@
   },
   {
     "name": "Namur (Confiserie-patisserie)",
-    "category": "Patisserie",
+    "category": "Bakery",
     "tags": [],
     "address": "27 Rue des Capucins, 1313 Luxembourg",
     "city": "Rue des Capucins",
@@ -26010,7 +26010,7 @@
   },
   {
     "name": "Théâtre Trévise",
-    "category": "Theatre",
+    "category": "Spectacle",
     "tags": [],
     "address": "14 Rue de Trévise, 75009 Paris, France",
     "city": "Paris",
@@ -26023,7 +26023,7 @@
   },
   {
     "name": "Le Grand Rex",
-    "category": "Cinema",
+    "category": "Spectacle",
     "tags": [],
     "address": "1 Boulevard Poissonnière, 75002 Paris, France",
     "city": "Paris",
@@ -26049,7 +26049,7 @@
   },
   {
     "name": "Le Petit Cellois",
-    "category": "Value for money",
+    "category": "Generic",
     "tags": [],
     "address": "29 Rue de Paris, 58440 La Celle-sur-Loire, France",
     "city": "La Celle-sur-Loire",
@@ -26075,7 +26075,7 @@
   },
   {
     "name": "Castelnau-d'Estrétefond",
-    "category": "Nice village",
+    "category": "Generic",
     "tags": [],
     "address": "Bordeneuve, 31620 Castelnau-d'Estrétefonds, France",
     "city": "Castelnau-d'Estrétefonds",
@@ -26101,7 +26101,7 @@
   },
   {
     "name": "Galata Tower",
-    "category": "",
+    "category": "Generic",
     "tags": [],
     "address": "Bereketzade, Galata Kulesi, 34421 Beyoğlu/İstanbul, Türkiye",
     "city": "Beyoğlu/İstanbul",
@@ -26127,7 +26127,7 @@
   },
   {
     "name": "Van Kahvaltı Evi",
-    "category": "Breakfast",
+    "category": "Cafe",
     "tags": [],
     "address": "Kılıçali Paşa, Defterdar Ykş. 52/A, 34425 Beyoğlu/İstanbul, Türkiye",
     "city": "Beyoğlu/İstanbul",
@@ -26140,7 +26140,7 @@
   },
   {
     "name": "The Fox Inn",
-    "category": "Pub, Proper British",
+    "category": "Bar",
     "tags": [],
     "address": "Bucks Green, Rudgwick, Horsham, RH12 3JP, UK",
     "city": "RH12 3JP",
@@ -26153,7 +26153,7 @@
   },
   {
     "name": "Ober Mamma",
-    "category": "Pizza, Italian",
+    "category": "Pizza",
     "tags": [],
     "address": "107 Boulevard Richard-Lenoir, 75011 Paris, France",
     "city": "Paris",
@@ -26166,7 +26166,7 @@
   },
   {
     "name": "The Hoxton, Paris",
-    "category": "Cool",
+    "category": "Generic",
     "tags": [],
     "address": "30-32 Rue du Sentier, 75002 Paris, France",
     "city": "Paris",
@@ -26205,7 +26205,7 @@
   },
   {
     "name": "The Chocolate Line",
-    "category": "Chocolate",
+    "category": "Bakery",
     "tags": [],
     "address": "Simon Stevinplein 19, 8000 Brugge, België",
     "city": "Brugge",
@@ -26218,7 +26218,7 @@
   },
   {
     "name": "De Vlaamsche Pot",
-    "category": "Lunch",
+    "category": "Restaurant",
     "tags": [],
     "address": "Helmstraat 3-5, 8000 Brugge, België",
     "city": "Brugge",
@@ -26257,7 +26257,7 @@
   },
   {
     "name": "Cannelle Beach",
-    "category": "Cool Beach",
+    "category": "Beach",
     "tags": [],
     "address": "Via delle Cannelle, 58012 Isola del Giglio GR, Italia",
     "city": "Isola del Giglio",
@@ -26348,7 +26348,7 @@
   },
   {
     "name": "Musei di Villa Torlonia",
-    "category": "Garden",
+    "category": "Park",
     "tags": [],
     "address": "Via Nomentana, 70, 00161 Roma RM, Italia",
     "city": "Roma",
@@ -26387,7 +26387,7 @@
   },
   {
     "name": "The Kings Head Inn",
-    "category": "Pub",
+    "category": "Bar",
     "tags": [],
     "address": "1 Quay Hill, Lymington, SO41 3AR, UK",
     "city": "SO41 3AR",
@@ -26400,7 +26400,7 @@
   },
   {
     "name": "The Smugglers Inn",
-    "category": "Pub",
+    "category": "Bar",
     "tags": [],
     "address": "88 High St, Milford on Sea, Lymington, SO41 0QE, UK",
     "city": "SO41 0QE",
@@ -26413,7 +26413,7 @@
   },
   {
     "name": "Mildreds Soho",
-    "category": "Vegan",
+    "category": "Restaurant",
     "tags": [],
     "address": "45 Lexington St, Carnaby, London, W1F 9AN, UK",
     "city": "W1F 9AN",
@@ -26426,7 +26426,7 @@
   },
   {
     "name": "Coach & Horses",
-    "category": "Pub",
+    "category": "Bar",
     "tags": [],
     "address": "1 Great Marlborough St, Soho, London, W1F 7HG, UK",
     "city": "W1F 7HG",
@@ -26439,7 +26439,7 @@
   },
   {
     "name": "The Frog & Wicket",
-    "category": "Pub",
+    "category": "Bar",
     "tags": [],
     "address": "The Green, Eversley Cross, Hook, RG27 0NS, UK",
     "city": "RG27 0NS",
@@ -26452,7 +26452,7 @@
   },
   {
     "name": "The Truman Brewery",
-    "category": "Pub",
+    "category": "Bar",
     "tags": [],
     "address": "91 Brick Ln, Shadwell, London, E1 6QR, UK",
     "city": "E1 6QR",
@@ -26478,7 +26478,7 @@
   },
   {
     "name": "Las Iguanas Bristol - Harbourside",
-    "category": "Pub",
+    "category": "Bar",
     "tags": [],
     "address": "South Bldg Anchor Square, Canon's Rd, Bristol, BS1 5UH, UK",
     "city": "BS1 5UH",
@@ -26543,7 +26543,7 @@
   },
   {
     "name": "FIEF (Fait Ici En France)",
-    "category": "Restaurant, Modern French",
+    "category": "Restaurant",
     "tags": [],
     "address": "44 Rue de la Folie Méricourt, 75011 Paris, France",
     "city": "Paris",
@@ -26556,7 +26556,7 @@
   },
   {
     "name": "Le Bourbon",
-    "category": "",
+    "category": "Generic",
     "tags": [],
     "address": "20 Rue Xavier Privas, 75005 Paris, France",
     "city": "Paris",
@@ -26569,7 +26569,7 @@
   },
   {
     "name": "Leitaria Anunciada",
-    "category": "Bar, Breakfast",
+    "category": "Bar",
     "tags": [],
     "address": "Largo da Anunciada 1, 1250-048 Lisboa, Portugal",
     "city": "",
@@ -26595,7 +26595,7 @@
   },
   {
     "name": "Due South Southern Cuisine",
-    "category": "Restaurant, American",
+    "category": "Restaurant",
     "tags": [],
     "address": "302 Clover Reach, Peachtree City, GA 30269, USA",
     "city": "",
@@ -26608,7 +26608,7 @@
   },
   {
     "name": "L'Alicheur",
-    "category": "Vegetarian",
+    "category": "Restaurant",
     "tags": [],
     "address": "96 Rue Saint-Maur, 75011 Paris, France",
     "city": "Paris",
@@ -26621,7 +26621,7 @@
   },
   {
     "name": "S'Incontru",
-    "category": "Breakast, Pizza",
+    "category": "Pizza",
     "tags": [],
     "address": "Piazza del Popolo, 63, 09010 Pula CA, Italia",
     "city": "Pula",
